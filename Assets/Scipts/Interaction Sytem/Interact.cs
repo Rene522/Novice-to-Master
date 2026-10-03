@@ -118,7 +118,7 @@ public class Interact : MonoBehaviour
                 feedbackTimer = feedbackDuration;
                 isShowingFeedback = true;
                 //Debug.Log("Not interactable");
-                InteractPrompt.gameObject.SetActive(false);
+                InteractPrompt.gameObject.SetActive(true);
 
             }
         }
