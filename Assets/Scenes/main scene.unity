@@ -19909,7 +19909,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b37bf2e94752831419671aa8832a852c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TestEffect
-  interactKey: 101
+  promptText: Press {key} To Interact
+  feedbackText: Cylinder Interacted With
+  allowNearbyPrompt: 0
 --- !u!43 &232505515
 Mesh:
   m_ObjectHideFlags: 0
@@ -140617,6 +140619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Interact
   range: 10
   InteractPrompt: {fileID: 165441451}
+  feedbackDuration: 3
 --- !u!43 &1537213997
 Mesh:
   m_ObjectHideFlags: 0
