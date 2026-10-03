@@ -43,7 +43,7 @@ public class Interact : MonoBehaviour
             }
             else
             {
-                Debug.Log("Not interactable");
+                //Debug.Log("Not interactable");
                 InteractPrompt.gameObject.SetActive(false);
 
             }
