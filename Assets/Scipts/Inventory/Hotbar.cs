@@ -49,7 +49,7 @@ public class Hotbar : MonoBehaviour
         if (mouse == null) return;
 
         float scroll = mouse.scroll.ReadValue().y;
-        Debug.Log(scroll);
+        //Debug.Log(scroll);
         if (scroll > 0f) //moves the selected slot to the previous slot //scroll up
         {
             Select(selectedSlot - 1);
