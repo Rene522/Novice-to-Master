@@ -51,6 +51,8 @@ public class Interact : MonoBehaviour
             return;
         }
 
+
+
         if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, range))
         {
             if (hit.collider.CompareTag("Interactable"))
