@@ -15,6 +15,8 @@ namespace StarterAssets
         public bool sprint;
         public bool interact;
 
+        public bool back;
+
         [Header("Movement Settings")]
         public bool analogMovement;
 
@@ -50,6 +52,12 @@ namespace StarterAssets
         {
             InteractInput(value.isPressed);
         }
+
+
+        public void OnBack(InputValue value)
+        {
+            BackInput(value.isPressed);
+        }
 #endif
 
         public void MoveInput(Vector2 newMoveDirection)
@@ -76,6 +84,14 @@ namespace StarterAssets
         {
             interact = newInteractState;
         }
+
+
+
+        public void BackInput(bool newBackState)
+        {
+            back = newBackState;
+        }
+
 
         private void OnApplicationFocus(bool hasFocus)
         {

@@ -252,6 +252,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -1142,6 +1143,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -1498,6 +1500,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -2744,6 +2747,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -3704,6 +3708,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -4060,6 +4065,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -4594,6 +4600,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -4950,6 +4957,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -5306,6 +5314,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -5662,6 +5671,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -6374,6 +6384,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -6730,6 +6741,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -7798,6 +7810,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -8154,6 +8167,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -8866,6 +8880,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -9222,6 +9237,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -9756,6 +9772,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -10646,6 +10663,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -11180,6 +11198,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -11536,6 +11555,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -12248,6 +12268,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -12679,6 +12700,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -13117,6 +13139,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -13473,6 +13496,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -13829,6 +13853,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -14466,6 +14491,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -15000,6 +15026,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -16231,6 +16258,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -16729,6 +16757,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -17263,6 +17292,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -18153,6 +18183,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -18509,6 +18540,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -18898,6 +18930,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -19240,6 +19273,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 2839
   m_Size: {x: 10, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -20706,6 +20740,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -21095,6 +21130,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -22148,6 +22184,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -22967,6 +23004,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -23308,6 +23346,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -23491,6 +23530,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 318421543}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &276334501 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1581309522520681390, guid: 6eef6acc7514b9a4bb287409c7df8aa1, type: 3}
+  m_PrefabInstance: {fileID: 6990969283017782692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &287708144
 GameObject:
   m_ObjectHideFlags: 0
@@ -23624,6 +23668,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -24158,6 +24203,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -24870,6 +24916,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -25760,6 +25807,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -34185,6 +34233,7 @@ GameObject:
   - component: {fileID: 330585544}
   - component: {fileID: 330585547}
   - component: {fileID: 330585548}
+  - component: {fileID: 330585549}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -34259,12 +34308,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 123.9, y: 1.985, z: 149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.375, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
+  m_Children:
+  - {fileID: 868018233}
+  m_Father: {fileID: 365931104}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &330585547
 MonoBehaviour:
@@ -34344,6 +34394,49 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   CustomBlends: {fileID: 0}
+--- !u!114 &330585549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330585543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33a510488cc26384ea9c0600441770b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBrainEvents
+  CameraActivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  CameraDeactivatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  BlendCreatedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  BlendFinishedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  CameraCutEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  Brain: {fileID: 330585548}
+  BrainUpdatedEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1561146524}
+        m_TargetAssemblyTypeName: InspectionCameraController, Assembly-CSharp
+        m_MethodName: SyncTextCamara
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &334492057
 GameObject:
   m_ObjectHideFlags: 0
@@ -34477,6 +34570,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -35723,6 +35817,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -36079,6 +36174,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -36480,6 +36576,39 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &365931103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 365931104}
+  m_Layer: 0
+  m_Name: Cameras
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &365931104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365931103}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 330585546}
+  - {fileID: 1763109123}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &368497918
 Mesh:
   m_ObjectHideFlags: 0
@@ -36824,6 +36953,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -37358,6 +37488,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -37714,6 +37845,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -38070,6 +38202,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -38782,6 +38915,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -39138,6 +39272,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -39977,6 +40112,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -40768,6 +40904,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -41302,6 +41439,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -41658,6 +41796,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -42014,6 +42153,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -42726,6 +42866,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -43745,6 +43886,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -44279,6 +44421,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -44635,6 +44778,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -45385,6 +45529,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -46453,6 +46598,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -47165,6 +47311,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -47521,6 +47668,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -48060,6 +48208,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -48772,6 +48921,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -49120,7 +49270,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1303628956}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &525601997
 GameObject:
@@ -49255,6 +49405,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -49611,6 +49762,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -50220,6 +50372,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -50576,6 +50729,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -51110,6 +51264,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -51644,6 +51799,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -52178,6 +52334,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -52534,6 +52691,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -52965,6 +53123,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -53321,6 +53480,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -53677,6 +53837,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -54033,6 +54194,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -54567,6 +54729,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -54868,6 +55031,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -55758,6 +55922,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -56292,6 +56457,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -56515,6 +56681,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!4 &580570184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5737361452268676331, guid: c4e723daa88474642af4ff2f0c40c577, type: 3}
+  m_PrefabInstance: {fileID: 5590244835523540721}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &591600355
 Mesh:
   m_ObjectHideFlags: 0
@@ -57538,6 +57709,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -58380,6 +58552,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -59270,6 +59443,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -59626,6 +59800,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -60160,6 +60335,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -60694,6 +60870,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -61050,6 +61227,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -62152,6 +62330,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -62977,6 +63156,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -63511,6 +63691,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -64045,6 +64226,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -64579,6 +64761,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -65454,6 +65637,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4872
   m_Size: {x: 170, y: 52.5, z: 190}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -70121,6 +70305,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -70477,6 +70662,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -70833,6 +71019,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -71189,6 +71376,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -71706,6 +71894,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -72062,6 +72251,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -72596,6 +72786,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -72952,6 +73143,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -73308,6 +73500,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -73664,6 +73857,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -74198,6 +74392,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -74554,6 +74749,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -75309,6 +75505,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -75843,6 +76040,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -76322,6 +76520,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -76678,6 +76877,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -77034,6 +77234,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -77924,6 +78125,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -78636,6 +78838,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -79261,6 +79464,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -79795,6 +79999,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -80151,6 +80356,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -80507,6 +80713,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -81219,6 +81426,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -81753,6 +81961,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -82369,6 +82578,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -82725,6 +82935,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -83081,6 +83292,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -83437,6 +83649,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -84205,46 +84418,13 @@ GameObject:
   - component: {fileID: 868018233}
   - component: {fileID: 868018232}
   - component: {fileID: 868018230}
-  - component: {fileID: 868018229}
   m_Layer: 0
   m_Name: TextCam
-  m_TagString: MainCamera
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &868018229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 868018228}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineBrain
-  ShowDebugText: 0
-  ShowCameraFrustum: 1
-  IgnoreTimeScale: 0
-  WorldUpOverride: {fileID: 0}
-  ChannelMask: -1
-  UpdateMethod: 2
-  BlendUpdateMethod: 1
-  LensModeOverride:
-    Enabled: 0
-    DefaultMode: 2
-  DefaultBlend:
-    Style: 1
-    Time: 2
-    CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  CustomBlends: {fileID: 0}
 --- !u!114 &868018230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84269,7 +84449,7 @@ MonoBehaviour:
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 1
+  m_RenderPostProcessing: 0
   m_Antialiasing: 0
   m_AntialiasingQuality: 2
   m_StopNaN: 0
@@ -84349,13 +84529,18 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 868018228}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 123.9, y: 1.985, z: 149}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 330585546}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &869249301 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4670465432554807064, guid: d26bb4dd9f1209d4cbe1042ac0fc549e, type: 3}
+  m_PrefabInstance: {fileID: 9033597886248111150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &873107269
 GameObject:
   m_ObjectHideFlags: 0
@@ -84775,6 +84960,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -85309,6 +85495,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -85680,6 +85867,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -86214,6 +86402,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -86570,6 +86759,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -87180,6 +87370,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -87536,6 +87727,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -88070,6 +88262,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -88426,6 +88619,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -88782,6 +88976,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -89138,6 +89333,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -89494,6 +89690,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -90028,6 +90225,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -90740,6 +90938,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -91096,6 +91295,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -91452,6 +91652,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -91753,6 +91954,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -92109,6 +92311,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -92643,6 +92846,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -92999,6 +93203,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -93711,6 +93916,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -94613,6 +94819,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -94969,6 +95176,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -95325,6 +95533,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -95807,6 +96016,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -96163,6 +96373,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -96412,15 +96623,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 123.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.61
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 149
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8997996947095583982, guid: c5efc39a8aaf6e64ea40e9ad573e9b47, type: 3}
       propertyPath: m_LocalRotation.w
@@ -96950,6 +97161,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -97484,6 +97696,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -98141,6 +98354,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -98482,6 +98696,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 9989
   m_Size: {x: 38, y: 42, z: -7.3164825}
   m_LocalCenter: {x: 0, y: 0, z: 2.658249}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -103112,6 +103327,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -103468,6 +103684,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -104323,6 +104540,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -105424,6 +105642,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -106136,6 +106355,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -106818,6 +107038,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -107530,6 +107751,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -108676,6 +108898,137 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1138478735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138478740}
+  - component: {fileID: 1138478739}
+  - component: {fileID: 1138478738}
+  - component: {fileID: 1138478737}
+  - component: {fileID: 1138478736}
+  m_Layer: 0
+  m_Name: Inspection Block
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1138478736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138478735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d21186d0ffb3ef408f2d21b54dced5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectionTrigger
+  promptText: Press {key} To Interact
+  feedbackText: 
+  allowNearbyPrompt: 0
+  inspectionCameraController: {fileID: 1561146524}
+  inspectionViewPoint: {fileID: 1209376771}
+--- !u!65 &1138478737
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138478735}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1138478738
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138478735}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1138478739
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138478735}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1138478740
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138478735}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.38268322, z: -0, w: 0.9238797}
+  m_LocalPosition: {x: -116.08837, y: 3.79, z: 62.27783}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1209376771}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -45, z: 0}
 --- !u!43 &1143594993
 Mesh:
   m_ObjectHideFlags: 0
@@ -108854,6 +109207,11 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!4 &1144398011 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3029207074067867457, guid: dd0a60fcfa85e804fbfd768e46568992, type: 3}
+  m_PrefabInstance: {fileID: 1769332455774301380}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1148778721
 GameObject:
   m_ObjectHideFlags: 0
@@ -108987,6 +109345,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -109343,6 +109702,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -110233,6 +110593,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -110574,6 +110935,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -110945,6 +111307,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -111301,6 +111664,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -111657,6 +112021,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -112191,6 +112556,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -112547,6 +112913,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -113081,6 +113448,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -113615,6 +113983,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -113838,6 +114207,37 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &1209376770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1209376771}
+  m_Layer: 0
+  m_Name: Inspection View Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1209376771
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209376770}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1138478740}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1210809411
 GameObject:
   m_ObjectHideFlags: 0
@@ -114182,6 +114582,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -114593,6 +114994,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -115127,6 +115529,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -115483,6 +115886,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -116075,6 +116479,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -116431,6 +116836,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -116965,6 +117371,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -118295,6 +118702,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -119120,6 +119528,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -119476,6 +119885,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -119832,6 +120242,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -120390,6 +120801,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1068395951}
+  - {fileID: 1561146525}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1272776308
@@ -120525,6 +120937,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -120881,6 +121294,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -121415,6 +121829,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -123062,6 +123477,43 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1303628955
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303628956}
+  m_Layer: 0
+  m_Name: Eye Puzzle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1303628956
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303628955}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 869249301}
+  - {fileID: 2124035803}
+  - {fileID: 1144398011}
+  - {fileID: 523732638}
+  - {fileID: 580570184}
+  - {fileID: 276334501}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1306017163
 GameObject:
   m_ObjectHideFlags: 0
@@ -123195,6 +123647,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -123729,6 +124182,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -124085,6 +124539,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -124619,6 +125074,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -124975,6 +125431,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -125585,6 +126042,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -126297,6 +126755,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -126653,6 +127112,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -127009,6 +127469,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -127365,6 +127826,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -128077,6 +128539,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -128433,6 +128896,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -128967,6 +129431,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -129323,6 +129788,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -129857,6 +130323,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -130997,6 +131464,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -131353,6 +131821,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -131709,6 +132178,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -132065,6 +132535,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -132421,6 +132892,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -133246,6 +133718,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -133780,6 +134253,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -134136,6 +134610,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -134492,6 +134967,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -135026,6 +135502,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -136094,6 +136571,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -136450,6 +136928,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -137019,6 +137498,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -137375,6 +137855,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -137909,6 +138390,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -138265,6 +138747,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -139130,6 +139613,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -139842,6 +140326,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -140198,6 +140683,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -140732,6 +141218,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -141622,6 +142109,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -141978,6 +142466,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -142334,6 +142823,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -142690,6 +143180,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -143046,6 +143537,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -143563,6 +144055,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -143919,6 +144412,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -144453,6 +144947,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -144987,6 +145482,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -146091,6 +146587,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -146876,6 +147373,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -147232,6 +147730,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -147944,6 +148443,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -148237,6 +148737,54 @@ Transform:
   - {fileID: 1083511284}
   m_Father: {fileID: 39726365}
   m_LocalEulerAnglesHint: {x: 0, y: 315, z: 0}
+--- !u!1 &1561146523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1561146525}
+  - component: {fileID: 1561146524}
+  m_Layer: 0
+  m_Name: Camera Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1561146524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561146523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 500e2dae05aef7b438ded6060949e6f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InspectionCameraController
+  inspectionCamera: {fileID: 1763109122}
+  firstPersonController: {fileID: 1531794082}
+  mainCameraBrain: {fileID: 330585548}
+  textCamera: {fileID: 868018232}
+--- !u!4 &1561146525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561146523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1272597883}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1562209999
 GameObject:
   m_ObjectHideFlags: 0
@@ -148623,6 +149171,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -149157,6 +149706,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -149513,6 +150063,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -149869,6 +150420,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -150225,6 +150777,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -151471,6 +152024,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -152005,6 +152559,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -152618,15 +153173,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 123.9
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.985
+      value: 1.375
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 149
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
       propertyPath: m_LocalRotation.w
@@ -153684,6 +154239,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -154040,6 +154596,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -154610,6 +155167,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -155500,6 +156058,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -156455,6 +157014,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -156811,6 +157371,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -157167,6 +157728,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -157701,6 +158263,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -158057,6 +158620,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -158413,6 +158977,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -158769,6 +159334,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -159125,6 +159691,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -159481,6 +160048,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -160549,6 +161117,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -160905,6 +161474,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -161261,6 +161831,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -161662,6 +162233,99 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1763109121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1763109123}
+  - component: {fileID: 1763109122}
+  - component: {fileID: 1763109124}
+  m_Layer: 0
+  m_Name: InspectionCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1763109122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763109121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 1
+    m_Value: 20
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 0}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 35
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
+--- !u!4 &1763109123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763109121}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 365931104}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1763109124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1763109121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 449ef5ebbe24720439ec31d15f7b6f3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineVolumeSettings
+  Weight: 1
+  FocusTracking: 3
+  FocusTarget: {fileID: 1138478740}
+  FocusOffset: 0
+  Profile: {fileID: 11400000, guid: 1a7046458267cc246b1c4139245b8461, type: 2}
 --- !u!1 &1764688719
 GameObject:
   m_ObjectHideFlags: 0
@@ -161795,6 +162459,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -162329,6 +162994,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -162685,6 +163351,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -163219,6 +163886,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -163575,6 +164243,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -164109,6 +164778,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -164643,6 +165313,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -165075,6 +165746,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -165431,6 +166103,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -165806,6 +166479,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -166162,6 +166836,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -166518,6 +167193,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -167230,6 +167906,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -167586,6 +168263,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -167942,6 +168620,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -168784,6 +169463,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -169318,6 +169998,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -170030,6 +170711,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -170386,6 +171068,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -171098,6 +171781,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -171810,6 +172494,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -172166,6 +172851,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -172522,6 +173208,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -172878,6 +173565,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -173357,6 +174045,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -173928,6 +174617,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -174269,6 +174959,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -174818,6 +175509,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -175174,6 +175866,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -175530,6 +176223,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -175886,6 +176580,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -176242,6 +176937,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -176598,6 +177294,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -176954,6 +177651,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -177310,6 +178008,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -178200,6 +178899,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -178734,6 +179434,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -179090,6 +179791,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -179802,6 +180504,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -180336,6 +181039,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -180870,6 +181574,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -181582,6 +182287,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -181938,6 +182644,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -182399,6 +183106,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -182755,6 +183463,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -183502,6 +184211,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -183858,6 +184568,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -184214,6 +184925,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -185104,6 +185816,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -185460,6 +186173,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -185994,6 +186708,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -186350,6 +187065,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -187062,6 +187778,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -187418,6 +188135,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -188130,6 +188848,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -189127,6 +189846,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -190195,6 +190915,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -190729,6 +191450,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -191619,6 +192341,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -191975,6 +192698,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -192198,6 +192922,11 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!4 &2124035803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7973891761496141648, guid: 66ce9be6b5f95ae418b315902ae5a0c6, type: 3}
+  m_PrefabInstance: {fileID: 2552237733666672127}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2127093773
 GameObject:
   m_ObjectHideFlags: 0
@@ -192331,6 +193060,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 3130
   m_Size: {x: 1, y: 10, z: 10}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -192941,6 +193671,7 @@ MonoBehaviour:
   m_UnmodifiedMeshVersion: 4921
   m_Size: {x: 100, y: 1, z: 100}
   m_LocalCenter: {x: 0, y: 0, z: 0}
+  m_PivotRatio: {x: 0, y: 0, z: 0}
   references:
     version: 2
     RefIds:
@@ -193649,7 +194380,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1303628956}
     m_Modifications:
     - target: {fileID: 3029207074067867457, guid: dd0a60fcfa85e804fbfd768e46568992, type: 3}
       propertyPath: m_LocalPosition.x
@@ -193706,7 +194437,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1303628956}
     m_Modifications:
     - target: {fileID: 1086548634638917976, guid: 66ce9be6b5f95ae418b315902ae5a0c6, type: 3}
       propertyPath: follow
@@ -193767,7 +194498,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1303628956}
     m_Modifications:
     - target: {fileID: 4190596874789589500, guid: c4e723daa88474642af4ff2f0c40c577, type: 3}
       propertyPath: m_Name
@@ -193824,7 +194555,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1303628956}
     m_Modifications:
     - target: {fileID: 1581309522520681390, guid: 6eef6acc7514b9a4bb287409c7df8aa1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -193881,7 +194612,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1303628956}
     m_Modifications:
     - target: {fileID: 1130295416259107098, guid: d26bb4dd9f1209d4cbe1042ac0fc549e, type: 3}
       propertyPath: follow
@@ -193940,8 +194671,7 @@ PrefabInstance:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 330585546}
-  - {fileID: 868018233}
+  - {fileID: 365931104}
   - {fileID: 1622240424}
   - {fileID: 1021063935}
   - {fileID: 410087041}
@@ -193952,9 +194682,5 @@ SceneRoots:
   - {fileID: 1272597883}
   - {fileID: 2084967682}
   - {fileID: 1644948979}
-  - {fileID: 9033597886248111150}
-  - {fileID: 2552237733666672127}
-  - {fileID: 1769332455774301380}
-  - {fileID: 523732638}
-  - {fileID: 5590244835523540721}
-  - {fileID: 6990969283017782692}
+  - {fileID: 1303628956}
+  - {fileID: 1138478740}
