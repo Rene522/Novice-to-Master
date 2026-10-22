@@ -3,16 +3,17 @@ using static TESTObjectData;
 
 public class TestPlace : Interactable
 {
-    [SerializeField] private ItemData acceptedItem;
+    [SerializeField] private TESTObjectData acceptedItem;
     [SerializeField] private Transform placementPoint;
 
     [SerializeField] private Light itemLight;
+
 
     public bool itemPlaced = false;
 
     public override string GetPromptText()
     {
-        ItemData carriedItem = TestPickup.CarriedItem;
+        TESTObjectData carriedItem = TestPickup.CarriedItem;
 
         if (carriedItem == null || acceptedItem == null)
             return "";
@@ -25,7 +26,7 @@ public class TestPlace : Interactable
 
     public override void InteractEffect()
     {
-        ItemData carriedItem = TestPickup.CarriedItem;
+        TESTObjectData carriedItem = TestPickup.CarriedItem;
 
         if (carriedItem == null || acceptedItem == null)
             return;
@@ -42,8 +43,6 @@ public class TestPlace : Interactable
 
         GameObject placedObject = Instantiate(carriedItem.placedPrefab, spawnPoint.position,spawnPoint.rotation);
 
-        //Instantiate(carriedItem.placedPrefab, spawnPoint.position, spawnPoint.rotation);
-
         TestPickup placedPickup = placedObject.GetComponent<TestPickup>();
 
         if (placedPickup != null)
@@ -53,11 +52,8 @@ public class TestPlace : Interactable
 
             itemPlaced = true;
             Debug.Log("YIPPEE");
-
         }
 
         TestPickup.RemoveCarriedItem();
-
     }
-
 }

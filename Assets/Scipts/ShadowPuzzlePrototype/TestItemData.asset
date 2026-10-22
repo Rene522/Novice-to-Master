@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 9725742519572b343b052e63a9a40cf6, type: 3}
   m_Name: TestItemData
-  m_EditorClassIdentifier: Assembly-CSharp::TESTObjectData/ItemData
+  m_EditorClassIdentifier: Assembly-CSharp::TESTObjectData
   itemName: TEST
   placedPrefab: {fileID: 6784523068804661100, guid: b7fb9768ac5a95d4f9287f7dddb3ced3, type: 3}

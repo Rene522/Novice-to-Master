@@ -3,9 +3,9 @@ using static TESTObjectData;
 
 public class TestPickup : Interactable
 {
-    [SerializeField] private ItemData itemData;
+    [SerializeField] private TESTObjectData itemData;
 
-    public static ItemData CarriedItem { get; private set; }
+    public static TESTObjectData CarriedItem { get; private set; }
 
     public bool HasItem => CarriedItem != null;
 
@@ -45,7 +45,7 @@ public class TestPickup : Interactable
         CarriedItem = null;
     }
 
-    public void SetItemData(ItemData item)
+    public void SetItemData(TESTObjectData item)
     {
         itemData = item;
     }

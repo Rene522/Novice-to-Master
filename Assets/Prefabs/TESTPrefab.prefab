@@ -140,7 +140,6 @@ GameObject:
   - component: {fileID: 6087832010959691645}
   - component: {fileID: 6057253763901323348}
   - component: {fileID: 8728746359480218892}
-  - component: {fileID: 6089056147806047236}
   m_Layer: 0
   m_Name: TESTPrefab
   m_TagString: Interactable
@@ -257,22 +256,5 @@ MonoBehaviour:
   promptText: Press {key} To Interact
   feedbackText: 
   allowNearbyPrompt: 0
-  itemData: {fileID: 11400000, guid: b5ba9da42bd4c2a43a0046296cf454d8, type: 2}
-  itemLight: {fileID: 3703295371528698146}
---- !u!114 &6089056147806047236
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6784523068804661100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 035be9bd7231bab428d14584b7b6a6d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::TestPickup
-  promptText: Press {key} To Interact
-  feedbackText: 
-  allowNearbyPrompt: 0
-  itemData: {fileID: 11400000, guid: b5ba9da42bd4c2a43a0046296cf454d8, type: 2}
+  itemData: {fileID: 0}
   itemLight: {fileID: 3703295371528698146}
