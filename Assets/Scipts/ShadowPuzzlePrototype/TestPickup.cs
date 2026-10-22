@@ -9,15 +9,15 @@ public class TestPickup : Interactable
 
     public bool HasItem => CarriedItem != null;
 
-    [SerializeField] private Light itemLight;
+    [SerializeField] private Light Light;
 
     public void Awake()
     {
-        if (itemLight == null)
-            itemLight = GetComponentInChildren<Light>();
+        if (Light == null)
+            Light = GetComponentInChildren<Light>();
 
-        if (itemLight != null)
-            itemLight.enabled = false;
+        if (Light != null)
+            Light.enabled = false;
     }
 
     public override string GetPromptText()
@@ -52,13 +52,13 @@ public class TestPickup : Interactable
 
     public void SetLanternLight(bool isOn)
     {
-        if (itemLight == null)
-            itemLight = GetComponentInChildren<Light>(true);
+        if (Light == null)
+            Light = GetComponentInChildren<Light>(true);
 
-        if (itemLight != null)
+        if (Light != null)
         {
-            itemLight.enabled = isOn;
-            itemLight.gameObject.SetActive(true);
+            Light.enabled = isOn;
+            Light.gameObject.SetActive(true);
         }
 
     }

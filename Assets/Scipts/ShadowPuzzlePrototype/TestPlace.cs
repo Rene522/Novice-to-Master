@@ -6,7 +6,7 @@ public class TestPlace : Interactable
     [SerializeField] private TESTObjectData acceptedItem;
     [SerializeField] private Transform placementPoint;
 
-    [SerializeField] private Light itemLight;
+    [SerializeField] private Light Light;
 
 
     public bool itemPlaced = false;
