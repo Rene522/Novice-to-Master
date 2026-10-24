@@ -45,6 +45,26 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
+                },
+                {
+                    "name": "Journal",
+                    "type": "Button",
+                    "id": "3ac3052a-82c3-487d-9021-60fc1448e0f5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Inspect",
+                    "type": "Button",
+                    "id": "2f553da1-6fea-4076-9b56-a10f6975a4bc",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
                 }
             ],
             "bindings": [
@@ -212,6 +232,28 @@
                     "action": "Interact",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3f2bd7d1-2b83-4bc0-99a1-fadf2c23311e",
+                    "path": "<Keyboard>/j",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Journal",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7950f6a2-9a79-4161-b3e6-392802b93c33",
+                    "path": "<Keyboard>/i",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Inspect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
@@ -239,6 +281,169 @@
                     "processors": "",
                     "groups": ";KeyboardMouse",
                     "action": "Back",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Journal",
+            "id": "8f20d286-7e00-4fa1-9d9d-668fe5dcbd2f",
+            "actions": [
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "d476a2f8-a5e4-44a3-81b5-bd3c4c2aa81c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Point",
+                    "type": "Value",
+                    "id": "1b866551-7282-4a27-b3e2-32ddaaa0939f",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9e1e1ebb-6508-47b9-98e0-5804ad1e4cd8",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "adaed703-5509-4069-bac3-d01e067cfcfc",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Point",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "Inventory",
+            "id": "46efc79c-71c2-4695-b0d4-d9f5dd7795a6",
+            "actions": [
+                {
+                    "name": "Slot 1",
+                    "type": "Button",
+                    "id": "100261dd-9a17-412e-aa51-57a71e7cd38f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Slot 2",
+                    "type": "Button",
+                    "id": "c98f9736-d0fc-4428-8efc-18fbceb78181",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Slot 3",
+                    "type": "Button",
+                    "id": "06b7b9f1-da48-4822-8b93-c6e5aaaa4dc8",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Slot 4",
+                    "type": "Button",
+                    "id": "d281523f-0369-4260-b191-a92872e6cb0d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                },
+                {
+                    "name": "Inventory Scroll",
+                    "type": "Value",
+                    "id": "945694d3-384e-4577-b476-a56f919327f6",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "39449e97-657d-48f5-98f6-e98f62414acf",
+                    "path": "<Keyboard>/1",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Slot 1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2e656cd8-426a-4609-a546-94fef3165a3e",
+                    "path": "<Keyboard>/2",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Slot 2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1ef62cb5-fc08-4d72-a0b9-53fc7041aa82",
+                    "path": "<Keyboard>/3",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Slot 3",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f5998a18-bb6a-4fa0-a3d6-2149c6cb9cc0",
+                    "path": "<Keyboard>/4",
+                    "interactions": "Press(behavior=2)",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Slot 4",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e70ddf8a-be96-4adf-b906-c9f954c34329",
+                    "path": "<Mouse>/scroll/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Inventory Scroll",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

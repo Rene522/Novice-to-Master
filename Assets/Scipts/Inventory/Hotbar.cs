@@ -2,20 +2,37 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using StarterAssets;
 
 public class Hotbar : MonoBehaviour
 {
     [SerializeField] GameObject[] highlights;
     [SerializeField] Image[] slotIcons;
     [SerializeField] Transform hand;
-    
-    static readonly Key[] hotkeys = { Key.Digit1, Key.Digit2, Key.Digit3, Key.Digit4 };
+    [SerializeField] StarterAssetsInputs inputs;
+
+    InputActionMap inventoryInputs;
+    InputAction[] hotkeys;
 
     int selectedSlot;
     public bool isSelected = false;
 
     ItemData[] items;
     GameObject selectedItem;
+    private void Awake()
+    {
+        inventoryInputs = inputs.GetComponent<PlayerInput>().actions.FindActionMap("Inventory");
+
+        hotkeys = new InputAction[]
+        {
+            inventoryInputs.FindAction("Slot 1"),
+            inventoryInputs.FindAction("Slot 2"),
+            inventoryInputs.FindAction("Slot 3"),
+            inventoryInputs.FindAction("Slot 4")
+        };
+
+        items = new ItemData[hotkeys.Length];
+    }
     
     void Start()
     {
@@ -35,10 +52,6 @@ public class Hotbar : MonoBehaviour
         ScrollWheel();
     }
 
-    private void Awake()
-    {
-        items = new ItemData[hotkeys.Length];
-    }
 
     void NumberKeys()
     {
@@ -50,7 +63,7 @@ public class Hotbar : MonoBehaviour
         //loop that checks if each hotkey has been pressed
         for (int i = 0; i < hotkeys.Length; i++)
         {
-            if (keybored[hotkeys[i]].wasPressedThisFrame)
+            if (hotkeys[i].WasPressedThisFrame())
             {
                 Select(i);
             }
@@ -60,12 +73,9 @@ public class Hotbar : MonoBehaviour
 
     void ScrollWheel()
     {
-        Mouse mouse = Mouse.current;
+        float scroll = inputs.inventoryScroll;
+        inputs.InventoryScrollInput(0f);
 
-        //if not scrolled it leaves the function
-        if (mouse == null) return;
-
-        float scroll = mouse.scroll.ReadValue().y;
         //Debug.Log(scroll);
         if (scroll > 0f) //moves the selected slot to the previous slot //scroll up
         {
@@ -124,6 +134,24 @@ public class Hotbar : MonoBehaviour
         return false;
     }
 
+    public ItemData GetSelectedItem()
+    {
+        if (!isSelected)
+        {
+            return null;
+        }
+
+        return items[selectedSlot];
+    }
+
+    public void SetHeldItemActive(bool isActive)
+    {
+        if (selectedItem)
+        {
+            selectedItem.SetActive(isActive);
+        }
+    }
+
     void SlotIcon(int slot)
     {
         bool hasItem = items[slot];
@@ -155,5 +183,16 @@ public class Hotbar : MonoBehaviour
         selectedItem.transform.localRotation = Quaternion.identity;
 
     }
-    
+
+    private void OnEnable()
+    {
+        inputs.InventoryScrollInput(0f);
+        inventoryInputs.Enable();
+    }
+
+    private void OnDisable()
+    {
+        inventoryInputs.Disable();
+    }
+
 }

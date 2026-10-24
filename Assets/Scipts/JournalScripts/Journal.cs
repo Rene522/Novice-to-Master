@@ -1,7 +1,9 @@
 using UnityEngine;
+using StarterAssets;
 
 public class Journal : MonoBehaviour
 {
+    [SerializeField] StarterAssetsInputs inputs;
     public Page[] pages;
     public int currentPage;
     public string status = "None";
@@ -10,10 +12,10 @@ public class Journal : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (inputs.journalClick && status == "None")
         {
             //On click, if the mouse is on the left of the book select the left page, else select the right
-            if (JournalCam.ScreenToWorldPoint(Input.mousePosition).x < 0)
+            if (JournalCam.ScreenToWorldPoint(inputs.journalPoint).x < 0)
             {
                 SetPageTurning(currentPage, true);
                 status = "Left";
@@ -24,18 +26,18 @@ public class Journal : MonoBehaviour
                 status = "Right";
             }
         }
-        else if (Input.GetMouseButtonUp(0))
+        else if (!inputs.journalClick && status != "None")
         {
             //Makes both pages return to their resting spot/full size
             SetPageTurning(currentPage, false);
             SetPageTurning(currentPage+1, false);
 
-            if (status == "Right" && JournalCam.ScreenToWorldPoint(Input.mousePosition).x < 0)
+            if (status == "Right" && JournalCam.ScreenToWorldPoint(inputs.journalPoint).x < 0)
             {
                 //If the player has dragged a page past the half way point, adjust the current page
                 UpdateFlip(false);
             }
-            else if (status == "Left" && JournalCam.ScreenToWorldPoint(Input.mousePosition).x > 0)
+            else if (status == "Left" && JournalCam.ScreenToWorldPoint(inputs.journalPoint).x > 0)
             {
                 //i.e. dragged the right page to the left or left page to the right
                 UpdateFlip(true);
@@ -121,4 +123,12 @@ public class Journal : MonoBehaviour
         SetPageBehind(currentPage, false);
         SetPageBehind(currentPage - 1, true);
     }
+
+    private void OnDisable()
+    {
+        SetPageTurning(currentPage, false);
+        SetPageTurning(currentPage + 1, false);
+        status = "None";
+    }
+
 }

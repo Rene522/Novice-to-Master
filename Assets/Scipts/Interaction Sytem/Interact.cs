@@ -75,6 +75,24 @@ public class Interact : MonoBehaviour
         InteractPrompt.gameObject.SetActive(false);
     }
 
+    public ItemData GetLookedAtItem()
+    {
+        RaycastHit inspectionHit;
+
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out inspectionHit, range))
+        {
+            if (inspectionHit.collider.CompareTag("Interactable"))
+            {
+                PickupItem pickupItem = inspectionHit.collider.GetComponent<PickupItem>();
+                if (pickupItem && pickupItem.isActiveAndEnabled)
+                {
+                    return pickupItem.GetItem();
+                }
+            }
+        }
+        return null;
+    }
+
     bool HandleInteractable(Interactable interactableObject, bool interactPressed)
     {
         if (!interactableObject || !interactableObject.isActiveAndEnabled)
