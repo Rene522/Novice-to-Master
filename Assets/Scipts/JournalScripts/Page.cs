@@ -1,7 +1,8 @@
 using UnityEngine;
-
+using StarterAssets;
 public class Page : MonoBehaviour
 {
+    [SerializeField] StarterAssetsInputs inputs;
     public SpriteRenderer sr;
 
     public int[] maxSize = new int[2]; //max size for tiling reasons
@@ -46,7 +47,7 @@ public class Page : MonoBehaviour
 
     public void FoldPage()
     {
-        targetPosition = new Vector2(journalCam.ScreenToWorldPoint(Input.mousePosition).x, maxSize[1]);
+        targetPosition = new Vector2(journalCam.ScreenToWorldPoint(inputs.journalPoint).x, maxSize[1]);
 
         targetPosition.x = this.transform.position.x - targetPosition.x;
 

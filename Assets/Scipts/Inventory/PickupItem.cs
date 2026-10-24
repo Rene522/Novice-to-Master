@@ -12,6 +12,11 @@ public class PickupItem : Interactable
         hotbar = GameObject.Find("Hotbar").GetComponent<Hotbar>();
     }
 
+    public ItemData GetItem()
+    {
+        return item;
+    }
+
     public override string GetPromptText()
     {
         return "Press {key} To pick up " +  item.itemName;
