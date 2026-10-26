@@ -179,8 +179,8 @@ public class Hotbar : MonoBehaviour
         }
 
         selectedItem = Instantiate(item.held, hand);
-        selectedItem.transform.localPosition = Vector3.zero;
-        selectedItem.transform.localRotation = Quaternion.identity;
+        //selectedItem.transform.localPosition = Vector3.zero;
+        //selectedItem.transform.localRotation = Quaternion.identity;
 
     }
 
