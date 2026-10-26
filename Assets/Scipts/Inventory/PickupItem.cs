@@ -14,7 +14,7 @@ public class PickupItem : Interactable
 
     public override string GetPromptText()
     {
-        return "Press {key} To pick up " +  item.itemName;
+        return " {key} To pick up " +  item.itemName;
     }
 
     public override void InteractEffect()
