@@ -6,19 +6,20 @@ public class WheelObject : MonoBehaviour
     public int RelativePosition;
 
     public Vector3 desiredPos;
+    public Vector3 centerPos;
     public bool isCenter;
 
     public void Update()
     {
         if (isCenter)
         {
-            if ((this.transform.localPosition - new Vector3(0,0,0)).magnitude > 0.1f)
+            if ((this.transform.localPosition - centerPos).magnitude > 0.1f)
             {
-                GoTo(new Vector3(0, 0, 0));
+                GoTo(centerPos);
             }
             else
             {
-                this.transform.localPosition = new Vector3(0, 0, 0);
+                this.transform.localPosition = centerPos;
                 isCenter = false;
             }
         }

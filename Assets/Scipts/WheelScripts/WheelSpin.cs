@@ -1,3 +1,4 @@
+using UnityEditor.Rendering;
 using UnityEngine;
 
 public class WheelSpin : MonoBehaviour
@@ -13,6 +14,20 @@ public class WheelSpin : MonoBehaviour
     public WheelManager manager;
 
     public bool DebugTestMode;
+    public GameObject playerdebug;
+
+    private void Start()
+    {
+        if (playerdebug == null)
+        {
+            CharacterController temp = FindFirstObjectByType<CharacterController>();
+
+            if (temp != null)
+            {
+                playerdebug = temp.gameObject;
+            }
+        }
+    }
 
     private void Update()
     {

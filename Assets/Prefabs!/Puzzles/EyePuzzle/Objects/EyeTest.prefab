@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 2639648193956569414}
   m_Layer: 0
   m_Name: Eye
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -667,6 +667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
   follow: {fileID: 0}
+  visual: {fileID: 8644973760959826723}
 --- !u!1 &8644973760959826723
 GameObject:
   m_ObjectHideFlags: 0
