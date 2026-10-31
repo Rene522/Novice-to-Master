@@ -1,4 +1,5 @@
 using System;
+using StarterAssets;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -8,14 +9,17 @@ public class Hotbar : MonoBehaviour
     [SerializeField] GameObject[] highlights;
     [SerializeField] Image[] slotIcons;
     [SerializeField] Transform hand;
+    [SerializeField] private InputActionAsset controls;
     
     static readonly Key[] hotkeys = { Key.Digit1, Key.Digit2, Key.Digit3, Key.Digit4 };
 
     int selectedSlot;
-    public bool isSelected = false;
-
+    bool isSelected = false;
+    
     ItemData[] items;
     GameObject selectedItem;
+    
+    InputAction drop;
     
     void Start()
     {
@@ -33,13 +37,26 @@ public class Hotbar : MonoBehaviour
         //checks both input methods
         NumberKeys();
         ScrollWheel();
+        Dropping();
     }
 
     private void Awake()
     {
         items = new ItemData[hotkeys.Length];
+
+        drop = controls.FindAction("Hotbar/Drop", true);
+        Debug.Log(drop);
     }
 
+    void OnEnable()
+    {
+        drop?.Enable();
+    }
+    void OnDisable()
+    {
+        drop?.Disable();
+    }
+    
     void NumberKeys()
     {
         Keyboard keybored = Keyboard.current;
@@ -153,6 +170,46 @@ public class Hotbar : MonoBehaviour
         selectedItem = Instantiate(item.held, hand);
         //selectedItem.transform.localPosition = Vector3.zero;
         //selectedItem.transform.localRotation = Quaternion.identity;
+
+    }
+
+    void Dropping()
+    {
+        if (drop == null)
+        {
+            return;
+        }
+
+        if (drop.WasPressedThisFrame())
+        {
+            Debug.Log("Dropping " + drop.name);
+            DropHeld();
+        }
+    }
+
+    void DropHeld()
+    {
+        if (!isSelected)
+        {
+            return;
+        }
+
+        ItemData item = items[selectedSlot];
+        Transform cam = Camera.main.transform;
+        Vector3 pos = cam.position;
+        
+        GameObject droppedItem = Instantiate(item.worldObject, pos, Quaternion.identity);
+        
+        Rigidbody rb = droppedItem.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.AddForce(cam.transform.forward, ForceMode.Impulse);
+        }
+        
+        //Clear and refresh
+        items[selectedSlot] = null;
+        SlotIcon(selectedSlot);
+        UpdateHeld();
 
     }
     
