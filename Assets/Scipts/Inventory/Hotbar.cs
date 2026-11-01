@@ -192,7 +192,7 @@ public class Hotbar : MonoBehaviour
 
     void DropHeld()
     {
-        if (drop == null)
+        if (selectedItem == null)
         {
             return;
         }
