@@ -174,7 +174,7 @@ public class Hotbar : MonoBehaviour
 
         if (drop.WasPressedThisFrame())
         {
-            Debug.Log("Dropping " + drop.name);
+            Debug.Log("Dropping " + selectedItem);
             DropHeld();
         }
     }
@@ -187,7 +187,7 @@ public class Hotbar : MonoBehaviour
         }
 
         ItemData item = items[selectedSlot];
-        Transform cam = Camera.main.transform;
+        Transform cam = hand.transform;
         Vector3 pos = cam.position;
         
         GameObject droppedItem = Instantiate(item.worldObject, pos, Quaternion.identity);
@@ -195,7 +195,7 @@ public class Hotbar : MonoBehaviour
         Rigidbody rb = droppedItem.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.AddForce(hand.forward * 3f, ForceMode.Impulse);
+            rb.AddForce(hand.forward * 5f, ForceMode.Impulse);
         }
         
         //Clear and refresh
