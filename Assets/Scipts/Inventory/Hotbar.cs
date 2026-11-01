@@ -19,6 +19,8 @@ public class Hotbar : MonoBehaviour
 
     ItemData[] items;
     GameObject selectedItem;
+    InputAction drop;
+    
     private void Awake()
     {
         inventoryInputs = inputs.GetComponent<PlayerInput>().actions.FindActionMap("Inventory");
@@ -32,6 +34,9 @@ public class Hotbar : MonoBehaviour
         };
 
         items = new ItemData[hotkeys.Length];
+
+        drop = inventoryInputs.FindAction("Drop");
+
     }
     
     void Start()
@@ -47,9 +52,10 @@ public class Hotbar : MonoBehaviour
 
     void Update()
     {
-        //checks both input methods
+        //checks input methods
         NumberKeys();
         ScrollWheel();
+        DropHeld();
     }
 
 
@@ -184,6 +190,44 @@ public class Hotbar : MonoBehaviour
 
     }
 
+    void DropHeld()
+    {
+        if (drop == null)
+        {
+            return;
+        }
+        if (drop.WasPressedThisFrame())
+        {
+            Debug.Log("Dropping " + selectedItem.name);
+            Dropping();
+        }
+    }
+    
+    void Dropping()
+    {
+        if (!isSelected)
+        {
+            return;
+        }
+
+        ItemData item = items[selectedSlot];
+        //Transform cam = hand.transform;
+        Vector3 pos = hand.position;
+    
+        GameObject droppedItem = Instantiate(item.worldObject, pos, Quaternion.identity);
+    
+        Rigidbody rb = droppedItem.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            rb.AddForce(hand.forward * 3f, ForceMode.Impulse);
+        }
+    
+        //Clear and refresh
+        items[selectedSlot] = null;
+        SlotIcon(selectedSlot);
+        UpdateHeld();
+
+    }
     private void OnEnable()
     {
         inputs.InventoryScrollInput(0f);
