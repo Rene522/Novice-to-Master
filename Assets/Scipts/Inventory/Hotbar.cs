@@ -9,7 +9,7 @@ public class Hotbar : MonoBehaviour
     [SerializeField] GameObject[] highlights;
     [SerializeField] Image[] slotIcons;
     [SerializeField] Transform hand;
-    [SerializeField] private InputActionAsset controls;
+    [SerializeField] InputActionAsset controls;
     
     static readonly Key[] hotkeys = { Key.Digit1, Key.Digit2, Key.Digit3, Key.Digit4 };
 
@@ -43,20 +43,12 @@ public class Hotbar : MonoBehaviour
     private void Awake()
     {
         items = new ItemData[hotkeys.Length];
-
-        drop = controls.FindAction("Hotbar/Drop", true);
+        
+        drop = controls.FindAction("Drop", true);
         Debug.Log(drop);
+        drop.Enable();
     }
 
-    void OnEnable()
-    {
-        drop?.Enable();
-    }
-    void OnDisable()
-    {
-        drop?.Disable();
-    }
-    
     void NumberKeys()
     {
         Keyboard keybored = Keyboard.current;
@@ -203,7 +195,7 @@ public class Hotbar : MonoBehaviour
         Rigidbody rb = droppedItem.GetComponent<Rigidbody>();
         if (rb != null)
         {
-            rb.AddForce(cam.transform.forward, ForceMode.Impulse);
+            rb.AddForce(hand.forward * 3f, ForceMode.Impulse);
         }
         
         //Clear and refresh

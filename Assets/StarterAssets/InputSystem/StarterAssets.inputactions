@@ -243,6 +243,35 @@
                     "isPartOfComposite": false
                 }
             ]
+        },
+        {
+            "name": "Hotbar",
+            "id": "ef225836-b0e1-4495-a1c4-4dda64d63e5c",
+            "actions": [
+                {
+                    "name": "Drop",
+                    "type": "Button",
+                    "id": "117731ba-cea0-41ef-a8b9-a0573f17a678",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false,
+                    "priority": 0
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "2e45b345-4256-46cf-b592-7d52aa3d3ffb",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";KeyboardMouse",
+                    "action": "Drop",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
         }
     ],
     "controlSchemes": [
