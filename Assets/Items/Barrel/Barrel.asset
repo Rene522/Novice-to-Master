@@ -15,4 +15,3 @@ MonoBehaviour:
   itemName: Barrel
   icon: {fileID: 21300000, guid: 174ccdd3b51ef684d9f75a6e40204933, type: 3}
   held: {fileID: 5813022750068129052, guid: 69bce34aaf66b0f46a6aa7a8bb54e7e0, type: 3}
-  worldObject: {fileID: 1549136605656677036, guid: 370ebe630b6fbeb4088872cf233fc3ed, type: 3}
