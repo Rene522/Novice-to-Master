@@ -63,6 +63,7 @@ public class Page : MonoBehaviour
         else
         {
             //Unflips the page if its on the starting side
+            UpdateSprite(pageSprite[1]);
             sr.flipX = false;
         }
 

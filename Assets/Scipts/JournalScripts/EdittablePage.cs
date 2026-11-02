@@ -12,9 +12,6 @@ public class EdittablePage : Page
 
     public float timer;
     private float reset = 0.5f;
-
-    public bool test;
-
     public override void Update()
     {
         //if (parent.isTurning)
@@ -39,11 +36,11 @@ public class EdittablePage : Page
 
         timer -= Time.unscaledDeltaTime;
 
-        if (isLeft && UnityEngine.Input.GetKey(KeyCode.LeftArrow) && parent.isBehind == false && sr.sprite != null)
+        if (isLeft && UnityEngine.Input.GetKey(KeyCode.LeftArrow) && parent.isBehind == false && parent.sr.flipX == false)
         {
             UpdateAltSprite();
         }
-        else if (isLeft == false && UnityEngine.Input.GetKey(KeyCode.RightArrow) && parent.isBehind == false && sr.sprite != null)
+        else if (isLeft == false && UnityEngine.Input.GetKey(KeyCode.RightArrow) && parent.isBehind == false && parent.sr.flipX)
         {
             UpdateAltSprite();
         }
@@ -70,13 +67,13 @@ public class EdittablePage : Page
 
     public void SwapSprites()
     {
-        if (pageSprite[0] != null)
+        if (isLeft == false)
         {
             Sprite temp = pageSprite[0];
             pageSprite[0] = AltSprite;
             AltSprite = temp;
         }
-        else if (pageSprite[1] != null)
+        else
         {
             Sprite temp = pageSprite[1];
             pageSprite[1] = AltSprite;
@@ -85,15 +82,13 @@ public class EdittablePage : Page
     }
 
     public void CheckIfUpdateSprite(int pos)
-    { 
+    {
         //This is so the player cant edit a page "not visible"
         //before, with the debug testing (pressing arrows to edit), the sprite would suddenly appear on the wrong page
 
-        if (sr.sprite == AltSprite)
-        {
-            sr.sprite = pageSprite[pos];
-            CheckAnimation(); //not required, just for animation
-        }
+
+        sr.sprite = pageSprite[pos];
+        CheckAnimation(); //not required, just for animation
     }
 
     public void CheckAnimation()
