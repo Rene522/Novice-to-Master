@@ -43,9 +43,9 @@ Light:
   m_Enabled: 1
   serializedVersion: 12
   m_Type: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
-  m_Range: 10
+  m_Color: {r: 0.31764707, g: 0.31764707, b: 0.31764707, a: 1}
+  m_Intensity: 50
+  m_Range: 50
   m_SpotAngle: 65.24299
   m_InnerSpotAngle: 58.236668
   m_CookieSize2D: {x: 0.5, y: 0.5}
@@ -87,8 +87,8 @@ Light:
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
+  m_ColorTemperature: 2033
+  m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
@@ -256,5 +256,5 @@ MonoBehaviour:
   promptText: Press {key} To Interact
   feedbackText: 
   allowNearbyPrompt: 0
-  itemData: {fileID: 0}
-  itemLight: {fileID: 3703295371528698146}
+  itemData: {fileID: 11400000, guid: b5ba9da42bd4c2a43a0046296cf454d8, type: 2}
+  Light: {fileID: 0}

@@ -35,7 +35,6 @@ public class TestPickup : Interactable
 
         CarriedItem = itemData;
 
-        Debug.Log("Picked up: " + CarriedItem.itemName);
 
         Destroy(gameObject);
     }
@@ -63,3 +62,4 @@ public class TestPickup : Interactable
 
     }
 }
+

@@ -8,6 +8,8 @@ public class TestPlace : Interactable
 
     [SerializeField] private Light Light;
 
+    [SerializeField] private ShadowPuzzleManager shadowPuzzleManager;
+
 
     public bool itemPlaced = false;
 
@@ -35,23 +37,33 @@ public class TestPlace : Interactable
             return;
 
         if (carriedItem.placedPrefab == null)
+            return;
+
+        shadowPuzzleManager.checkIfCorrect();
+
+        Transform spawnPoint = placementPoint != null ? placementPoint : transform;
+
+        GameObject placedObject = Instantiate(carriedItem.placedPrefab, spawnPoint.position, spawnPoint.rotation);
+
+        TestPickup placedPickup = placedObject.GetComponent<TestPickup>();
+
+        if (placedPickup == null)
         {
             return;
         }
 
-        Transform spawnPoint = placementPoint != null ? placementPoint : transform;
+        placedPickup.SetItemData(carriedItem);
 
-        GameObject placedObject = Instantiate(carriedItem.placedPrefab, spawnPoint.position,spawnPoint.rotation);
-
-        TestPickup placedPickup = placedObject.GetComponent<TestPickup>();
-
-        if (placedPickup != null)
+        if (shadowPuzzleManager != null && shadowPuzzleManager.correct == true)
         {
-            placedPickup.SetItemData(carriedItem);
             placedPickup.SetLanternLight(true);
-
             itemPlaced = true;
             Debug.Log("YIPPEE");
+        }
+        else
+        {
+            Debug.Log("Nah");
+            placedPickup.SetLanternLight(false);
         }
 
         TestPickup.RemoveCarriedItem();

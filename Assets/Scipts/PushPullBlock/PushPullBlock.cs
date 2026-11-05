@@ -218,6 +218,7 @@ public class PushPullBlock : Interactable
             return;
         }
         targetPosition = rb.position + direction * gridSize; // Calculate the target position for the block to move to based on the current position, direction, and grid size
+
         isMoving = true; // Set the isMoving flag to true to indicate that the block is currently moving
     }
 
