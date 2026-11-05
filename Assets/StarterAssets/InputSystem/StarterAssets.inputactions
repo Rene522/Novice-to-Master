@@ -45,16 +45,6 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
-                },
-                {
-                    "name": "Rotate",
-                    "type": "Button",
-                    "id": "1c7311dc-24c9-4ad0-aca8-107304ca3cb4",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "Press(behavior=2)",
-                    "initialStateCheck": false,
-                    "priority": 0
                 }
             ],
             "bindings": [
@@ -220,17 +210,6 @@
                     "processors": "",
                     "groups": ";KeyboardMouse",
                     "action": "Interact",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "76fec77c-fc0a-4729-a94f-202629f7c31f",
-                    "path": "<Keyboard>/r",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": ";KeyboardMouse",
-                    "action": "Rotate",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
