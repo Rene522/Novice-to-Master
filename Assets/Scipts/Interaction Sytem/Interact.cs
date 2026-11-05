@@ -6,7 +6,7 @@ using UnityEngine.InputSystem;
 public class Interact : MonoBehaviour
 {
     RaycastHit hit;
-    public float range = 100f;
+    public float range = 10f;
     public TextMeshProUGUI InteractPrompt;
 
     [SerializeField] float feedbackDuration = 2f;

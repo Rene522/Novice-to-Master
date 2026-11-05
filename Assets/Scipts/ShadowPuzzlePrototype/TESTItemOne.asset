@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 105415a7205627f40a433725ce75a3c4, type: 3}
+  m_Name: TESTItemOne
+  m_EditorClassIdentifier: Assembly-CSharp::TESTItemOne
+  itemName: ONE
+  placedPrefab: {fileID: 3851265089617807318, guid: 24c7295d6fdcec2479a81aa9c48a240d, type: 3}

@@ -17,6 +17,8 @@ namespace StarterAssets
 
         public bool back;
 
+        public bool rotate;
+
         [Header("Movement Settings")]
         public bool analogMovement;
 
@@ -53,6 +55,11 @@ namespace StarterAssets
             InteractInput(value.isPressed);
         }
 
+        public void OnRotate(InputValue value)
+        {
+            RotateInput(value.isPressed);
+        }
+
 
         public void OnBack(InputValue value)
         {
@@ -83,6 +90,11 @@ namespace StarterAssets
         public void InteractInput(bool newInteractState)
         {
             interact = newInteractState;
+        }
+
+        public void RotateInput(bool newRotateState)
+        {
+            rotate = newRotateState;
         }
 
 
