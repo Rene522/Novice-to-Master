@@ -5,7 +5,8 @@ using UnityEngine;
 public class Eye : PuzzleItem
 {
     public Direction dir;
-    public Sprite[] sprites = new Sprite[3];
+    public Sprite[] clearSprites = new Sprite[3];
+    public Sprite[] mossSprites = new Sprite[3];
 
     public TextMeshProUGUI see;
     public TextMeshProUGUI want;
@@ -14,14 +15,18 @@ public class Eye : PuzzleItem
 
     public ItemType goalType; //Im choosing to do ItemType over Types since i want to set the "want" text using this var
 
+    public bool isMoss;
+
     protected override void Start()
     {
         CheckParticles();
 
         want.text = (wantText + goalType.ReturnText());
+
+        UpdateSprite();
     }
 
-    public void Update()
+    public virtual void Update()
     {
         if (dir == Direction.Forward)
         {
@@ -46,7 +51,7 @@ public class Eye : PuzzleItem
         {
             if (hit.transform.gameObject.TryGetComponent<ItemType>(out ItemType output))
             {
-                see.text = (seeText + output.ReturnText());
+                SetText(output.ReturnText());
 
                 if (isSolved != true)
                 {
@@ -61,6 +66,12 @@ public class Eye : PuzzleItem
 
     public void ChangeDirection(bool isLeft)
     {
+        if (isMoss)
+        {
+            return;
+        }
+
+
         if (dir == Direction.Forward)
         {
             dir = isLeft ? Direction.Left : Direction.Right;
@@ -77,22 +88,43 @@ public class Eye : PuzzleItem
         UpdateSprite();
     }
 
-    public void UpdateSprite()
+    public virtual void SetText()
+    {
+        see.text = seeText;
+    }
+    public virtual void SetText(string input)
+    {
+        see.text = seeText + input;
+    }
+
+    public virtual void UpdateSprite()
     {
         if (TryGetComponent<SpriteRenderer>(out SpriteRenderer rend))
         {
-            if (dir == Direction.Forward)
+            if (isMoss)
             {
-                rend.sprite = sprites[1];
+                SelectSprite(rend, mossSprites);
             }
-            else if (dir == Direction.Left)
+            else
             {
-                rend.sprite = sprites[0];
+                SelectSprite(rend, clearSprites);
             }
-            else if (dir == Direction.Right)
-            {
-                rend.sprite = sprites[2];
-            }
+        }
+    }
+
+    public void SelectSprite(SpriteRenderer rend, Sprite[] array)
+    {
+        if (dir == Direction.Forward)
+        {
+            rend.sprite = array[1];
+        }
+        else if (dir == Direction.Left)
+        {
+            rend.sprite = array[0];
+        }
+        else if (dir == Direction.Right)
+        {
+            rend.sprite = array[2];
         }
     }
 }

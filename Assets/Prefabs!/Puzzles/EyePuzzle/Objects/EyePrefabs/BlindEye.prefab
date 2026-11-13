@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7047753680423617611}
   m_Layer: 0
   m_Name: Eye
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: deaad11ec446fe94b9779f95ce50d202, type: 3}
+  m_Sprite: {fileID: -892512539, guid: 208fe1d227ae2454b9c4ecaaf71200c0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -108,15 +108,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Eye
   prefab: {fileID: 9014972935962124107, guid: 43d1ea6f5c4e7984b83708eef1df7f90, type: 3}
   dir: 0
-  sprites:
-  - {fileID: 21300000, guid: 8899b4cdfecb5ec42833875b465a732b, type: 3}
-  - {fileID: 21300000, guid: deaad11ec446fe94b9779f95ce50d202, type: 3}
-  - {fileID: 21300000, guid: 0082e05f2bd719241a1d57cb9bc90616, type: 3}
+  clearSprites:
+  - {fileID: -1258604539, guid: 208fe1d227ae2454b9c4ecaaf71200c0, type: 3}
+  - {fileID: -892512539, guid: 208fe1d227ae2454b9c4ecaaf71200c0, type: 3}
+  - {fileID: 1956620732, guid: 208fe1d227ae2454b9c4ecaaf71200c0, type: 3}
+  mossSprites:
+  - {fileID: -1038216964, guid: 8da51b1ef8f3a68449855c54dcd17f2d, type: 3}
+  - {fileID: 1092415263, guid: 8da51b1ef8f3a68449855c54dcd17f2d, type: 3}
+  - {fileID: -914364873, guid: 8da51b1ef8f3a68449855c54dcd17f2d, type: 3}
   see: {fileID: 920439870861888682}
   want: {fileID: 1264931870983177525}
   seeText: 'I am Blind to '
   wantText: 'I Don''t Want '
   goalType: {fileID: 1922133370357577516, guid: cf81009202249114699ac034f4af1254, type: 3}
+  isMoss: 0
 --- !u!65 &914401058817124935
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -168,7 +173,7 @@ GameObject:
   - component: {fileID: 313488849121255618}
   - component: {fileID: 7612487709881943744}
   m_Layer: 0
-  m_Name: EyeTest2
+  m_Name: BlindEye
   m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -372,6 +377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FollowPlayer
   follow: {fileID: 0}
+  visual: {fileID: 7013041403985359031}
 --- !u!1 &6698103282012644763
 GameObject:
   m_ObjectHideFlags: 0

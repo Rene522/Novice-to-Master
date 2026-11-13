@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -8,10 +10,20 @@ public class WheelManager : MonoBehaviour
     public WheelSpin wheel;
 
     public Vector3[] TempPositions = new Vector3[8];
+    public Vector3 Center;
 
     public bool checkForFall;
 
     public List<WheelObject> wheelObjects = new List<WheelObject>();
+
+    private void Start()
+    {
+        foreach (WheelObject obj in wheelObjects)
+        {
+            obj.centerPos = Center;
+        }
+    }
+
 
     public void Run()
     {
@@ -82,9 +94,13 @@ public class WheelManager : MonoBehaviour
         {
             for (int i = 0; i < fallFrom.Count; i++)
             {
-                for (int j = 0; j < fallTo.Count; j++)
+                if (fallTo.Count == 2)
                 {
-                    CheckItems(fallFrom[i], fallTo[j]);
+                    CheckItems(fallFrom[i], fallTo[0], fallTo[1]);
+                }
+                else
+                {
+                    CheckItems(fallFrom[i], fallTo[1]);
                 }
             }
         }
@@ -115,6 +131,30 @@ public class WheelManager : MonoBehaviour
         }
     }
 
+    public void CheckItems(int startVal, int endValA, int endValB)
+    {
+        int multiple = 0;
+        foreach (WheelObject obj in wheelObjects)
+        {
+            if (obj.RelativePosition == startVal)
+            {
+                if ((multiple % 2) == 1)
+                {
+                    obj.RelativePosition = endValB;
+                }
+                else
+                {
+                    obj.RelativePosition = endValB;
+                }
+
+                obj.desiredPos = TempPositions[obj.RelativePosition];
+                obj.isCenter = true;
+
+                multiple++;
+            }
+        }
+    }
+
     public int WheelAddCheck(int mod)
     {
         int temp = mod - wheel.Position;
@@ -131,7 +171,3 @@ public class WheelManager : MonoBehaviour
         return temp;
     }
 }
-
-//change obj to objective position + relative position
-//obj pos is where it is relative to the wheel
-//rel pos is where it is relative to the player

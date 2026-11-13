@@ -20,5 +20,6 @@ public enum Types
     Player,
     Apple,
     Orange,
-    Wall
+    Wall,
+    Water
 }
