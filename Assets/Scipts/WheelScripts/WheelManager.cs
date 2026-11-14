@@ -100,7 +100,7 @@ public class WheelManager : MonoBehaviour
                 }
                 else
                 {
-                    CheckItems(fallFrom[i], fallTo[1]);
+                    CheckItems(fallFrom[i], fallTo[0]);
                 }
             }
         }

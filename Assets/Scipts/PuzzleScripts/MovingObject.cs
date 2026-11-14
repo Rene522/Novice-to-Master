@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 
 public class MovingObject : MonoBehaviour
@@ -6,9 +8,16 @@ public class MovingObject : MonoBehaviour
     public Vector3 OpenPosition;
 
     public bool isClosed = true;
+    public bool MultipleRequirements;
+    public List<PuzzleItem> items = new List<PuzzleItem>();
 
     private void Update()
     {
+        if (MultipleRequirements)
+        {
+            CheckObjects();
+        }
+
         if (isClosed)
         {
             MoveToPos(ClosePosition);
@@ -28,6 +37,28 @@ public class MovingObject : MonoBehaviour
         else
         {
             this.transform.localPosition = pos;
+        }
+    }
+
+    public void CheckObjects()
+    {
+        bool allComplete = true;
+
+        foreach (PuzzleItem item in items)
+        {
+            if (!item.isSolved)
+            {
+                allComplete = false;
+            }
+        }
+
+        if (allComplete)
+        {
+            isClosed = false;
+        }
+        else
+        {
+            isClosed = true;
         }
     }
 }

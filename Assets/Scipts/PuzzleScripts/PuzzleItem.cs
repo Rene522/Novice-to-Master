@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class PuzzleItem : MonoBehaviour
 {
-    protected bool isSolved;
+    public bool isSolved;
     protected ParticleSystem yippee;
     public ParticleSystem prefab;
 

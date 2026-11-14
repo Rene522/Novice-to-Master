@@ -23,23 +23,13 @@ public class Eye : PuzzleItem
 
         want.text = (wantText + goalType.ReturnText());
 
+        CheckLookDirection();
         UpdateSprite();
     }
 
     public virtual void Update()
     {
-        if (dir == Direction.Forward)
-        {
-            Look(transform.TransformDirection(Vector3.forward));
-        }
-        else if (dir == Direction.Left)
-        {
-            Look(transform.TransformDirection(Vector3.left));
-        }
-        else if (dir == Direction.Right)
-        {
-            Look(transform.TransformDirection(Vector3.right));
-        }
+        CheckLookDirection();
     }
 
     public void Look(Vector3 Direction)
@@ -61,6 +51,22 @@ public class Eye : PuzzleItem
                     }
                 }
             }
+        }
+    }
+
+    public void CheckLookDirection()
+    {
+        if (dir == Direction.Forward)
+        {
+            Look(transform.TransformDirection(Vector3.forward));
+        }
+        else if (dir == Direction.Left)
+        {
+            Look(transform.TransformDirection(Vector3.left));
+        }
+        else if (dir == Direction.Right)
+        {
+            Look(transform.TransformDirection(Vector3.right));
         }
     }
 
