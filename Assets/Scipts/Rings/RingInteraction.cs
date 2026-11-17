@@ -10,6 +10,7 @@ public class RingInteraction : MonoBehaviour
     [SerializeField] private RingsController puzzleController;
 
     private Ring targetedRing;
+    public AudioManager audioManager;
 
     private void Update()
     {
@@ -25,6 +26,7 @@ public class RingInteraction : MonoBehaviour
         if (Keyboard.current.eKey.wasPressedThisFrame)
         {
             RotateTargetedRing(1);
+            audioManager.PlaySFX("ringTurn");
         }
 
         // Q rotates the targeted ring anticlockwise.
