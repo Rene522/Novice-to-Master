@@ -13,6 +13,7 @@ namespace StarterAssets
         public Vector2 look;
         public bool jump;
         public bool sprint;
+        public bool crouch;
         public bool interact;
         public bool journal;
         public bool journalClick;
@@ -54,6 +55,11 @@ namespace StarterAssets
         public void OnSprint(InputValue value)
         {
             SprintInput(value.isPressed);
+        }
+
+        public void OnCrouch(InputValue value)
+        {
+            CrouchInput(value.isPressed);
         }
 
         public void OnInteract(InputValue value)
@@ -122,6 +128,11 @@ namespace StarterAssets
         public void SprintInput(bool newSprintState)
         {
             sprint = newSprintState;
+        }
+
+        public void CrouchInput(bool newCrouchState)
+        {
+            crouch = newCrouchState;
         }
 
         public void InteractInput(bool newInteractState)
