@@ -21,5 +21,6 @@ public enum Types
     Apple,
     Orange,
     Wall,
-    Water
+    Water,
+    Symbol
 }
