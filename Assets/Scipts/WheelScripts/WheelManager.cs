@@ -4,7 +4,7 @@ using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class WheelManager : MonoBehaviour
+public class WheelManager : PuzzleItem
 {
     public Shield shield;
     public WheelSpin wheel;
@@ -16,8 +16,12 @@ public class WheelManager : MonoBehaviour
 
     public List<WheelObject> wheelObjects = new List<WheelObject>();
 
-    private void Start()
+    protected override void Start()
     {
+        base.Start();
+
+        Solve();
+
         foreach (WheelObject obj in wheelObjects)
         {
             obj.centerPos = Center;
@@ -28,6 +32,20 @@ public class WheelManager : MonoBehaviour
     public void Run()
     {
         MoveItems();
+
+        if (isSolved == false)
+        {
+            foreach (WheelObject obj in wheelObjects)
+            {
+                if (obj.CheckSolved() == false)
+                {
+                    return;
+                }
+            }
+
+            this.isSolved = true;
+            this.Solve();
+        }
     }
 
     public void UpdateItems(int input)
@@ -94,7 +112,7 @@ public class WheelManager : MonoBehaviour
         {
             for (int i = 0; i < fallFrom.Count; i++)
             {
-                if (fallTo.Count == 2)
+                if (fallTo.Count >= 2)
                 {
                     CheckItems(fallFrom[i], fallTo[0], fallTo[1]);
                 }
@@ -133,24 +151,24 @@ public class WheelManager : MonoBehaviour
 
     public void CheckItems(int startVal, int endValA, int endValB)
     {
-        int multiple = 0;
+        int counter = 0;
         foreach (WheelObject obj in wheelObjects)
         {
             if (obj.RelativePosition == startVal)
             {
-                if ((multiple % 2) == 1)
+                if ((counter % 2) == 1)
                 {
                     obj.RelativePosition = endValB;
                 }
                 else
                 {
-                    obj.RelativePosition = endValB;
+                    obj.RelativePosition = endValA;
                 }
 
                 obj.desiredPos = TempPositions[obj.RelativePosition];
                 obj.isCenter = true;
 
-                multiple++;
+                counter++;
             }
         }
     }
