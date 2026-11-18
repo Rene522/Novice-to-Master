@@ -46,7 +46,6 @@ public class Eye : PuzzleItem
     {
         RaycastHit hit;
 
-        Debug.DrawRay(this.transform.position, Direction, Color.red );
 
         if (Physics.Raycast(this.transform.position, Direction, out hit))
         {

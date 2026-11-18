@@ -9,9 +9,6 @@ public class WheelObject : MonoBehaviour
     public Vector3 centerPos;
     public bool isCenter;
 
-    public bool IsSolvable;
-    public int solvePosition;
-
     public void Update()
     {
         if (isCenter)
@@ -31,25 +28,12 @@ public class WheelObject : MonoBehaviour
             GoTo(desiredPos);
         }
         else
-        {
+        { 
             this.transform.localPosition = desiredPos;
         }
     }
     public void GoTo(Vector3 newPos)
     {
         this.transform.localPosition = Vector3.Lerp(this.transform.localPosition, newPos, 0.1f);
-    }
-
-    public bool CheckSolved()
-    {
-        if (IsSolvable)
-        {
-            if (solvePosition == RelativePosition)
-            {
-                return true;
-            }
-        }
-
-        return false;
     }
 }
