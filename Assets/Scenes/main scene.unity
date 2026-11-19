@@ -17017,10 +17017,9 @@ MonoBehaviour:
   promptText: Press {key} To Interact
   feedbackText: 
   allowNearbyPrompt: 0
-  acceptedItem: {fileID: 11400000, guid: 7a83647d40234ed47b8e781d2be06506, type: 2}
   placementPoint: {fileID: 2097005470}
   Light: {fileID: 0}
-  shadowPuzzleManager: {fileID: 0}
+  hotbar: {fileID: 1001094011}
   itemPlaced: 0
 --- !u!54 &206094735
 Rigidbody:

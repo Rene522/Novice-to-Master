@@ -16,3 +16,4 @@ MonoBehaviour:
   icon: {fileID: 21300000, guid: 32bcd3bf6ca5bd343981448b4b4d4f35, type: 3}
   held: {fileID: 8516684004805233890, guid: cfcef499838f9d04994899d2044b626b, type: 3}
   worldObject: {fileID: 1018716394290750463, guid: d048a5cc127ebbd42b85adec45f0c2fb, type: 3}
+  placedObject: {fileID: 1018716394290750463, guid: d048a5cc127ebbd42b85adec45f0c2fb, type: 3}

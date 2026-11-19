@@ -1,5 +1,6 @@
 using UnityEngine;
 using static TESTObjectData;
+using static ItemData;
 
 public class TestPlace : Interactable
 {
@@ -7,64 +8,69 @@ public class TestPlace : Interactable
 
     [SerializeField] private Light Light;
 
-    [SerializeField] private ShadowPuzzleManager shadowPuzzleManager;
+    //[SerializeField] private ShadowPuzzleManager shadowPuzzleManager;
 
+    [SerializeField] private Hotbar hotbar;
+
+    [SerializeField] private GameObject placedItem;
 
     public bool itemPlaced = false;
 
+    void Update()
+    {
+        if (itemPlaced && placedItem == null)
+        {
+            itemPlaced = false;
+        }
+    }
     public override string GetPromptText()
     {
-        TESTObjectData carriedItem = TestPickup.CarriedItem;
+        ItemData item = hotbar.GetSelectedItem();
 
-        if (carriedItem == null)
+        if (item == null || item.placedObject == null)
             return "";
 
-        //if (carriedItem != acceptedItem)
-            //return "";
-
-        return $"Press {{key}} to place {carriedItem.itemName}";
+        return $"Press {{key}} to place {item.itemName}";
     }
 
     public override void InteractEffect()
     {
-        TESTObjectData carriedItem = TestPickup.CarriedItem;
-
-        //if (carriedItem == null || acceptedItem == null)
-            //return;
-
-        //if (carriedItem != acceptedItem)
-            //return;
-
-        if (carriedItem.placedPrefab == null)
-            return;
-
-        shadowPuzzleManager.checkIfCorrect();
-
-        Transform spawnPoint = placementPoint != null ? placementPoint : transform;
-
-        GameObject placedObject = Instantiate(carriedItem.placedPrefab, spawnPoint.position, spawnPoint.rotation);
-
-        TestPickup placedPickup = placedObject.GetComponent<TestPickup>();
-
-        if (placedPickup == null)
+        if (!itemPlaced)
         {
-            return;
-        }
+            ItemData item = hotbar.GetSelectedItem();
 
-        placedPickup.SetItemData(carriedItem);
-
-        if (shadowPuzzleManager != null && shadowPuzzleManager.correct == true)
-        {
-            placedPickup.SetLanternLight(true);
             itemPlaced = true;
-            Debug.Log("YIPPEE");
+
+            if (item == null || item.placedObject == null)
+                return;
+
+            // shadowPuzzleManager.checkIfCorrect();
+
+            Transform spawnPoint = placementPoint != null ? placementPoint : transform;
+
+            GameObject placedObject = Instantiate(item.placedObject, spawnPoint.position, spawnPoint.rotation);
+
+            placedItem = placedObject;
+            Debug.Log(placedObject.name);
+
+            //if (shadowPuzzleManager != null && shadowPuzzleManager.correct == true)
+            //{
+            // itemPlaced = true;
+            // Debug.Log("YIPPEE");
+            //}
+            // else
+            //{
+            // Debug.Log("Nah");
+            //}
+
+            //TestPickup.RemoveCarriedItem();
+
+            hotbar.RemoveSelectedItem();
         }
         else
         {
-            Debug.Log("Nah");
-            placedPickup.SetLanternLight(false);
+            Debug.Log("Item already there bro");
         }
-
-        TestPickup.RemoveCarriedItem();
     }
+
 }

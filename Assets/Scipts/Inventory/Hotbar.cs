@@ -239,4 +239,15 @@ public class Hotbar : MonoBehaviour
         inventoryInputs.Disable();
     }
 
+    public void RemoveSelectedItem()
+    {
+        if (!isSelected)
+            return;
+
+        items[selectedSlot] = null;
+
+        SlotIcon(selectedSlot);
+        UpdateHeld();
+    }
+
 }
