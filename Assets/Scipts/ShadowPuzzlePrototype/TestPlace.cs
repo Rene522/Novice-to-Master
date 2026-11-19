@@ -13,8 +13,10 @@ public class TestPlace : Interactable
     [SerializeField] private Hotbar hotbar;
 
     [SerializeField] private GameObject placedItem;
+    [SerializeField] public Rigidbody rb;
 
     public bool itemPlaced = false;
+
 
     void Update()
     {
@@ -23,7 +25,7 @@ public class TestPlace : Interactable
             itemPlaced = false;
         }
     }
-    public override string GetPromptText()
+    public override string GetPlacePrompt()
     {
         ItemData item = hotbar.GetSelectedItem();
 
@@ -33,13 +35,13 @@ public class TestPlace : Interactable
         return $"Press {{key}} to place {item.itemName}";
     }
 
-    public override void InteractEffect()
+    public override void PlaceEffect()
     {
         if (!itemPlaced)
         {
             ItemData item = hotbar.GetSelectedItem();
 
-            itemPlaced = true;
+            itemPlaced = true;        
 
             if (item == null || item.placedObject == null)
                 return;
@@ -49,6 +51,16 @@ public class TestPlace : Interactable
             Transform spawnPoint = placementPoint != null ? placementPoint : transform;
 
             GameObject placedObject = Instantiate(item.placedObject, spawnPoint.position, spawnPoint.rotation);
+
+            placedObject.transform.SetParent(transform);
+
+            Rigidbody rb = placedObject.GetComponentInChildren<Rigidbody>();
+
+            if (rb != null)
+            {
+                rb.useGravity = false;
+                rb.isKinematic = true;
+            }
 
             placedItem = placedObject;
             Debug.Log(placedObject.name);
@@ -71,6 +83,11 @@ public class TestPlace : Interactable
         {
             Debug.Log("Item already there bro");
         }
+    }
+
+    public override string GetPromptText()
+    {
+        return "";
     }
 
 }
