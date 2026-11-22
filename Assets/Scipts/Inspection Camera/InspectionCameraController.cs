@@ -24,7 +24,7 @@ public class InspectionCameraController : MonoBehaviour
     Transform originalFocusTarget;
     PlayerInput playerInput;
 
-    bool isInspecting;
+    public bool isInspecting;
 
     void Awake()
     {
