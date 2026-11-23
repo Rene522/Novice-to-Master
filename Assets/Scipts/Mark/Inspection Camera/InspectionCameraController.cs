@@ -82,7 +82,7 @@ public class InspectionCameraController : MonoBehaviour
         textCamera.fieldOfView = brain.OutputCamera.fieldOfView;
     }
 
-    public void StartInspection(Transform inspectionViewPoint, bool usePlayerView = false)
+    public void StartInspection(Transform inspectionViewPoint, bool usePlayerView = false, Transform focusTarget = null)
     {
         inspectionCamera.Lens.FieldOfView = originalInspectionFieldOfView;
 
@@ -103,6 +103,10 @@ public class InspectionCameraController : MonoBehaviour
         inspectionInputs.Enable();
 
         inspectionCamera.transform.SetPositionAndRotation(inspectionViewPoint.position, inspectionViewPoint.rotation);
+        if (focusTarget)
+        {
+            inspectionVolume.FocusTarget = focusTarget;
+        }
 
         inspectionCamera.gameObject.SetActive(true);
 

@@ -24,7 +24,7 @@ public class InspectionTrigger : Interactable
             return;
         }
 
-        inspectionCameraController.StartInspection(inspectionViewPoint, usePlayerView);
+        inspectionCameraController.StartInspection(inspectionViewPoint, usePlayerView, transform);
         inspectionManager.SetInspection(this);
 
         if (canInteract)
