@@ -18,12 +18,16 @@ public class PushPullBlock : Interactable
     [SerializeField] float moveSpeed = 2f;
     [Tooltip("The distance at which the block can be grabbed")]
     [SerializeField] float grabDistance = 1.5f;
+    [SerializeField] bool isLocked;
+    [SerializeField] InspectionTrigger unlockSwitch;
+    [SerializeField] string lockedMessage = "Something is holding it in place.";
+    [SerializeField] InspectionManager inspectionManager;
 
     Rigidbody rb; // The rigidbody of the block
     StarterAssetsInputs inputs; // The input handler for the player
     InputAction interactAction; // The input action for interacting with the block
     CharacterController characterController; // The character controller of the player
-    BoxCollider blockCollider; // The box collider of the block
+    Collider blockCollider; // The box collider of the block
 
     static PushPullBlock grabbedBlock; // The currently grabbed block
     static int lastInteractionFrame = -1; // The last frame in which an interaction occurred
@@ -41,7 +45,7 @@ public class PushPullBlock : Interactable
     private void Awake()
     {
         rb = GetComponent<Rigidbody>(); // Get the rigidbody component of the block
-        blockCollider = GetComponent<BoxCollider>(); // Get the box collider component of the block
+        blockCollider = GetComponent<Collider>(); // Get the collider component of the block
         inputs = player.GetComponent<StarterAssetsInputs>(); // Get the input handler component of the player
         PlayerInput playerInput = player.GetComponent<PlayerInput>(); // Get the player input component of the player
         interactAction = playerInput.actions.FindAction("Player/Interact", true); // Find the interact action in the player's input actions
@@ -53,6 +57,10 @@ public class PushPullBlock : Interactable
     /// </summary>
     private void Update()
     {
+        if (isLocked && unlockSwitch && unlockSwitch.HasActivated())
+        {
+            Unlock();
+        }
         if (!isGrabbed) // If the block is not grabbed, do nothing
         {
             return;
@@ -130,27 +138,44 @@ public class PushPullBlock : Interactable
     /// </summary>
     /// <param name="direction"></param>
     /// <returns></returns>
-    bool CanMoveBlock(Vector3 direction)
-    { 
-        Vector3 centre = blockCollider.bounds.center; // Get the center of the block's collider
-        Vector3 halfSize = blockCollider.bounds.extents; // Get the half size of the block's collider
-        halfSize -= Vector3.one * 0.02f; // Slightly reduce the half size to avoid edge collisions
+    bool CanMoveBlock(Vector3 direction, out float moveDistance)
+    {
+        moveDistance = gridSize;
+        Bounds localBounds;
 
-        RaycastHit[] hits = Physics.BoxCastAll(centre, halfSize, direction, Quaternion.identity, gridSize, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore); // Perform a box cast in the specified direction to check for potential collisions
-
-        foreach (RaycastHit hit in hits) // Iterate through all the hits from the box cast
+        if (blockCollider is BoxCollider boxCollider)
         {
-            if (hit.collider.attachedRigidbody == rb) // If the hit collider belongs to the block itself, ignore it
-            {
-                continue;
-            }
-            if (hit.collider.transform.IsChildOf(player)) // If the hit collider belongs to the player or its children, ignore it
-            {
-                continue;
-            }
-            return false; // If any other collider is hit, the block cannot move in that direction      
+            localBounds = new Bounds(boxCollider.center, boxCollider.size);
         }
-        return true; // If no other colliders are hit, the block can move in that direction
+        else
+        {
+            MeshCollider meshCollider = (MeshCollider)blockCollider;
+            localBounds = meshCollider.sharedMesh.bounds;
+        }
+
+        Vector3 centre = blockCollider.transform.TransformPoint(localBounds.center);
+        Vector3 scale = blockCollider.transform.lossyScale;
+
+        Vector3 halfSize = new Vector3(Mathf.Max(localBounds.extents.x * Mathf.Abs(scale.x) - 0.02f, 0.001f), Mathf.Max(localBounds.extents.y * Mathf.Abs(scale.y) - 0.02f, 0.001f), Mathf.Max(localBounds.extents.z * Mathf.Abs(scale.z) - 0.02f, 0.001f));
+
+        RaycastHit[] hits = Physics.BoxCastAll(centre, halfSize, direction, blockCollider.transform.rotation, gridSize + 0.02f, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore);
+
+        foreach (RaycastHit hit in hits)
+        {
+            if (hit.collider.attachedRigidbody == rb)
+            {
+                continue;
+            }
+
+            if (hit.collider.transform.IsChildOf(player))
+            {
+                continue;
+            }
+
+            moveDistance = Mathf.Min(moveDistance, Mathf.Max(0f, hit.distance - 0.02f));
+        }
+
+        return moveDistance > 0.001f;
     }
 
     /// <summary>
@@ -158,7 +183,7 @@ public class PushPullBlock : Interactable
     /// </summary>
     /// <param name="direction"></param>
     /// <returns></returns>
-    bool CanMovePlayer(Vector3 direction)
+    bool CanMovePlayer(Vector3 direction, float moveDistance)
     {
         Bounds bounds = characterController.bounds; // Get the bounds of the player's character controller
 
@@ -170,7 +195,7 @@ public class PushPullBlock : Interactable
 
         radius -= 0.02f; // Slightly reduce the radius to avoid edge collisions
 
-        RaycastHit[] hits = Physics.CapsuleCastAll(topPoint, bottomPoint, radius, direction, gridSize, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore); // Perform a capsule cast in the specified direction to check for potential collisions while moving the player
+        RaycastHit[] hits = Physics.CapsuleCastAll(topPoint, bottomPoint, radius, direction, moveDistance, Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore); // Perform a capsule cast in the specified direction to check for potential collisions while moving the player
 
         foreach (RaycastHit hit in hits) // Iterate through all the hits from the capsule cast
         {
@@ -193,7 +218,7 @@ public class PushPullBlock : Interactable
     /// <param name="stepDirection"></param>
     void MoveBlock(float stepDirection)
     {
-        Vector3 direction = rb.position - player.position; // Calculate the direction from the player to the block
+        Vector3 direction = transform.InverseTransformDirection(rb.position - player.position); // Calculate the direction from the player to the block
 
         if (Mathf.Abs(direction.x) > Mathf.Abs(direction.z))// Determine whether the block is more aligned with the x-axis or z-axis for movement
         {
@@ -204,20 +229,21 @@ public class PushPullBlock : Interactable
             direction = new Vector3(0, 0, Mathf.Sign(direction.z)); // Set the direction to be along the z-axis based on the sign of the z component
         }
 
+        direction = transform.TransformDirection(direction);
         direction *= stepDirection; // Scale the direction by the stepDirection to determine whether to move forward or backward
         isPulling = stepDirection < 0; // Set the isPulling flag based on whether the block is being pulled (stepDirection < 0) or pushed (stepDirection > 0)
 
-        if (!CanMoveBlock(direction)) // If the block cannot move in the specified direction, release the block and stop moving
+        if (!CanMoveBlock(direction, out float moveDistance))// If the block cannot move in the specified direction, release the block and stop moving
         {
             ReleaseBlock();
             return;
         }
-        if (isPulling && !CanMovePlayer(direction)) // If the block is being pulled and the player cannot move in the specified direction, release the block and stop moving
+        if (isPulling && !CanMovePlayer(direction, moveDistance)) // If the block is being pulled and the player cannot move in the specified direction, release the block and stop moving
         {
             ReleaseBlock();
             return;
         }
-        targetPosition = rb.position + direction * gridSize; // Calculate the target position for the block to move to based on the current position, direction, and grid size
+        targetPosition = rb.position + direction * moveDistance; // Calculate the target position for the block to move to based on the current position, direction, and grid size
 
         isMoving = true; // Set the isMoving flag to true to indicate that the block is currently moving
     }
@@ -248,6 +274,17 @@ public class PushPullBlock : Interactable
         distanceToBlock.y = 0f; // Ignore vertical distance for grab distance calculation
         return distanceToBlock.magnitude <= grabDistance; // Return true if the player is within the grab distance of the block, allowing for interaction; otherwise, return false
     }
+    public void Unlock()
+    {
+        isLocked = false;
+    }
+
+    public void LockInPlace()
+    {
+        ReleaseBlock();
+        rb.isKinematic = true;
+        enabled = false;
+    }
 
     /// <summary>
     /// Returns whether the block is currently moving.
@@ -263,6 +300,12 @@ public class PushPullBlock : Interactable
     /// </summary>
     public override void InteractEffect()
     {
+        if (isLocked)
+        {
+            inspectionManager.ShowMessage(lockedMessage, 2f);
+            return;
+        }
+
         if (grabbedBlock && grabbedBlock != this) // If another block is currently grabbed and it's not this block, do nothing
         {
             return;
@@ -311,7 +354,17 @@ public class PushPullBlock : Interactable
         }
         return base.GetPromptText(); // Otherwise, return the default prompt text from the base class
     }
-    
+
+    public override string GetFeedbackText()
+    {
+        if (isLocked)
+        {
+            return "";
+        }
+
+        return base.GetFeedbackText();
+    }
+
     /// <summary>
     /// Called when the component is disabled.
     /// </summary>
