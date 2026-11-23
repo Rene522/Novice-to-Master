@@ -10,7 +10,7 @@ public class LeverPull : MonoBehaviour
     [SerializeField] private float sensitivity;
     [SerializeField] private float maxPull;
     [SerializeField] private float minPull;
-
+    
     [SerializeField] private UnityEvent onLeverPulled;
     [SerializeField] private UnityEvent onInteractionFinished;
 
