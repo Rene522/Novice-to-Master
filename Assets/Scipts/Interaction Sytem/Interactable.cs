@@ -30,4 +30,14 @@ public class Interactable : MonoBehaviour
     {
         Debug.Log("default interaction triggered");
     }
+
+    public virtual string GetPlacePrompt()
+    {
+        return "";
+    }
+
+    public virtual void PlaceEffect()
+    {
+        Debug.Log("default place triggered");
+    }
 }

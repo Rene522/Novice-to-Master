@@ -9,6 +9,8 @@ public class Interact : MonoBehaviour
     public float range = 10f;
     public TextMeshProUGUI InteractPrompt;
 
+    public TextMeshProUGUI PlacePrompt;
+
     [SerializeField] float feedbackDuration = 2f;
 
     StarterAssetsInputs inputs;
@@ -16,6 +18,8 @@ public class Interact : MonoBehaviour
 
     bool isShowingFeedback;
     float feedbackTimer;
+
+    TestPlace currentItem;
 
     void Start()
     {
@@ -25,6 +29,11 @@ public class Interact : MonoBehaviour
         if (InteractPrompt)
         {
             InteractPrompt.gameObject.SetActive(false);
+        }
+
+        if (PlacePrompt)
+        {
+            PlacePrompt.gameObject.SetActive(false);
         }
     }
 
@@ -37,6 +46,8 @@ public class Interact : MonoBehaviour
 
         bool interactPressed = inputs.interact;
         inputs.InteractInput(false);
+
+        HandlePlacement();
 
         if (isShowingFeedback)
         {
@@ -144,6 +155,47 @@ public class Interact : MonoBehaviour
         }
 
         return true;
+    }
+
+    void HandlePlacement()
+    {
+        bool placePressed = inputs.place;
+        inputs.PlaceInput(false);
+
+        if (!PlacePrompt)
+            return;
+
+        if (Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out RaycastHit placementHit,range))
+        {
+            TestPlace placeable = placementHit.collider.GetComponent<TestPlace>();
+
+            if (placeable != null)
+            {
+                string prompt = placeable.GetPlacePrompt();
+
+                if (!string.IsNullOrWhiteSpace(prompt))
+                {
+                    InputAction action = playerInput.actions.FindAction("Player/Place");
+
+                    if (action != null)
+                    {
+                        string key = action.GetBindingDisplayString(group: playerInput.currentControlScheme);
+
+                        PlacePrompt.text = prompt.Replace("{key}", key);
+                        PlacePrompt.gameObject.SetActive(true);
+
+                        if (placePressed)
+                        {
+                            placeable.PlaceEffect();
+                        }
+
+                        return;
+                    }
+                }
+            }
+        }
+
+        PlacePrompt.gameObject.SetActive(false);
     }
 
     bool CheckNearbyColliders(bool interactPressed)

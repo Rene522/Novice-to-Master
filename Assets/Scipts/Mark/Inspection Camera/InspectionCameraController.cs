@@ -14,6 +14,9 @@ public class InspectionCameraController : MonoBehaviour
     [SerializeField] Transform inspectionObjectPoint;
     [SerializeField] float rotationSpeed = 5f;
 
+    [SerializeField] InspectionManager inspectionManager;
+    [SerializeField, Range(0.1f, 1f)] float viewZoomMultiplier = 0.7f;
+
 
     StarterAssetsInputs inputs;
     Interact playerInteractor;
@@ -25,14 +28,16 @@ public class InspectionCameraController : MonoBehaviour
     PlayerInput playerInput;
 
     bool isInspecting;
+    float originalInspectionFieldOfView;
 
     void Awake()
     {
         inputs = firstPersonController.GetComponent<StarterAssetsInputs>();
         playerInteractor = firstPersonController.GetComponent<Interact>();
         playerInput = firstPersonController.GetComponent<PlayerInput>();
-        inspectionInputs = firstPersonController.GetComponent<PlayerInput>().actions.FindActionMap("Inspection");
+        inspectionInputs = playerInput.actions.FindActionMap("Inspection");
         inspectionVolume = inspectionCamera.GetComponent<CinemachineVolumeSettings>();
+        originalInspectionFieldOfView = inspectionCamera.Lens.FieldOfView;
     }
 
     private void Update()
@@ -60,6 +65,12 @@ public class InspectionCameraController : MonoBehaviour
             StopInspection();
         }
 
+        if (isInspecting && inputs.interact && Time.timeScale > 0f)
+        {
+            inputs.InteractInput(false);
+            inspectionManager.ActivateInspection();
+        }
+
         if (isInspecting && inspectedItem && Time.timeScale > 0f)
         {
             RotateItem();
@@ -71,8 +82,20 @@ public class InspectionCameraController : MonoBehaviour
         textCamera.fieldOfView = brain.OutputCamera.fieldOfView;
     }
 
-    public void StartInspection(Transform inspectionViewPoint)
+    public void StartInspection(Transform inspectionViewPoint, bool usePlayerView = false, Transform focusTarget = null)
     {
+        inspectionCamera.Lens.FieldOfView = originalInspectionFieldOfView;
+
+        if (usePlayerView)
+        {
+            Camera playerCamera = mainCameraBrain.OutputCamera;
+            inspectionViewPoint = playerCamera.transform;
+            inspectionCamera.Lens.FieldOfView = playerCamera.fieldOfView * viewZoomMultiplier;
+        }
+
+        inputs.InteractInput(false);
+        inspectionManager.ClearInspection();
+
         firstPersonController.enabled = false;
         playerInteractor.InteractPrompt.gameObject.SetActive(false);
         playerInteractor.enabled = false;
@@ -80,6 +103,11 @@ public class InspectionCameraController : MonoBehaviour
         inspectionInputs.Enable();
 
         inspectionCamera.transform.SetPositionAndRotation(inspectionViewPoint.position, inspectionViewPoint.rotation);
+        if (focusTarget)
+        {
+            inspectionVolume.FocusTarget = focusTarget;
+        }
+
         inspectionCamera.gameObject.SetActive(true);
 
         isInspecting = true;
@@ -122,6 +150,8 @@ public class InspectionCameraController : MonoBehaviour
         {
             return;
         }
+
+        inspectionManager.ClearInspection();
 
         isInspecting = false;
         inputs.BackInput(false);
