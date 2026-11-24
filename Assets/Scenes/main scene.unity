@@ -207815,7 +207815,7 @@ MonoBehaviour:
   seeText: 'I See '
   wantText: 'I Want '
   goalType: {fileID: 1922133370357577516, guid: cf81009202249114699ac034f4af1254, type: 3}
-  isMoss: 1
+  isMoss: 0
 --- !u!4 &562260953049404243
 Transform:
   m_ObjectHideFlags: 0
@@ -209854,10 +209854,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7d9d3ea5e40d048a0e6089f8d0213a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovingObject
-  ClosePosition: {x: -8.5, y: -4, z: 1}
-  OpenPosition: {x: -8.5, y: -0.55, z: 1}
+  ClosePosition: {x: -8.5, y: -4, z: 0}
+  OpenPosition: {x: -8.5, y: -0.55, z: 0}
   isClosed: 1
-  MultipleRequirements: 0
+  MultipleRequirements: 1
   items:
   - {fileID: 6380589366484571842}
   - {fileID: 7659844056564615413}
@@ -213514,7 +213514,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &3176312190206745509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220249,7 +220249,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &6774425552442440632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223144,11 +223144,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7d9d3ea5e40d048a0e6089f8d0213a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MovingObject
-  ClosePosition: {x: -8.5, y: -4, z: 1}
-  OpenPosition: {x: -8.5, y: -0.55, z: 1}
+  ClosePosition: {x: -0.5, y: 1.05, z: 6}
+  OpenPosition: {x: -0.5, y: 3.05, z: 6}
   isClosed: 1
-  MultipleRequirements: 0
-  items: []
+  MultipleRequirements: 1
+  items:
+  - {fileID: 394823540629679807}
+  - {fileID: 1847693036551999390}
+  - {fileID: 515973962862425343}
+  - {fileID: 1454570418196953797}
+  - {fileID: 2886645419678089173}
 --- !u!212 &8083082234306379286
 SpriteRenderer:
   serializedVersion: 2
@@ -223854,7 +223859,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8363190464653692292
 Transform:
   m_ObjectHideFlags: 0
