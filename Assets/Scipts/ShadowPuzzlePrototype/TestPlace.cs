@@ -8,11 +8,13 @@ public class TestPlace : Interactable
 
     [SerializeField] private Light Light;
 
-    //[SerializeField] private ShadowPuzzleManager shadowPuzzleManager;
+    [SerializeField] private ShadowPuzzleManager shadowPuzzleManager;
 
     [SerializeField] private Hotbar hotbar;
 
-    [SerializeField] private GameObject placedItem;
+    [SerializeField] public GameObject placedItem;
+
+    public GameObject placedItemPrefab;
     [SerializeField] public Rigidbody rb;
 
     public bool itemPlaced = false;
@@ -44,11 +46,11 @@ public class TestPlace : Interactable
             itemPlaced = true;        
 
             if (item == null || item.placedObject == null)
-                return;
-
-            // shadowPuzzleManager.checkIfCorrect();
+                return;        
 
             Transform spawnPoint = placementPoint != null ? placementPoint : transform;
+
+            placedItemPrefab = item.placedObject;
 
             GameObject placedObject = Instantiate(item.placedObject, spawnPoint.position, spawnPoint.rotation);
 
@@ -63,19 +65,19 @@ public class TestPlace : Interactable
             }
 
             placedItem = placedObject;
-            Debug.Log(placedObject.name);
+            Debug.Log(placedObject.name);       
 
-            //if (shadowPuzzleManager != null && shadowPuzzleManager.correct == true)
-            //{
-            // itemPlaced = true;
-            // Debug.Log("YIPPEE");
-            //}
-            // else
-            //{
-            // Debug.Log("Nah");
-            //}
+            if (shadowPuzzleManager != null && shadowPuzzleManager.correct == true)
+            {
+             itemPlaced = true;
+             Debug.Log("YIPPEE");
+            }
+             else
+            {
+             Debug.Log("Nah");
+            }
 
-            //TestPickup.RemoveCarriedItem();
+            shadowPuzzleManager.checkIfCorrect();
 
             hotbar.RemoveSelectedItem();
         }

@@ -3932,6 +3932,37 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1 &50762738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 50762739}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &50762739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 50762738}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.63, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 433399570}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &52356331
 GameObject:
   m_ObjectHideFlags: 0
@@ -17020,8 +17051,11 @@ MonoBehaviour:
   allowNearbyPrompt: 0
   placementPoint: {fileID: 2097005470}
   Light: {fileID: 0}
+  shadowPuzzleManager: {fileID: 1970314023}
   hotbar: {fileID: 1001094011}
   placedItem: {fileID: 0}
+  placedItemPrefab: {fileID: 0}
+  rb: {fileID: 0}
   itemPlaced: 0
 --- !u!54 &206094735
 Rigidbody:
@@ -41658,6 +41692,7 @@ GameObject:
   - component: {fileID: 433399567}
   - component: {fileID: 433399566}
   - component: {fileID: 433399571}
+  - component: {fileID: 433399572}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Interactable
@@ -41778,7 +41813,8 @@ Transform:
   m_LocalPosition: {x: 2.60743, y: 0.49, z: 14.952}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 50762739}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &433399571
@@ -41808,6 +41844,29 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &433399572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433399565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756cf0e91437f4842a9f72a39608b38c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TestPlace
+  promptText: Press {key} To Interact
+  feedbackText: 
+  allowNearbyPrompt: 0
+  placementPoint: {fileID: 50762739}
+  Light: {fileID: 0}
+  shadowPuzzleManager: {fileID: 1970314023}
+  hotbar: {fileID: 1001094011}
+  placedItem: {fileID: 0}
+  placedItemPrefab: {fileID: 0}
+  rb: {fileID: 0}
+  itemPlaced: 0
 --- !u!1 &439152904
 GameObject:
   m_ObjectHideFlags: 0
@@ -121458,6 +121517,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1272597883}
+  - component: {fileID: 1272597884}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -121480,8 +121540,31 @@ Transform:
   m_Children:
   - {fileID: 1068395951}
   - {fileID: 1561146525}
+  - {fileID: 1970314024}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1272597884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272597882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e52c963f1535042a6fbd4ded7af2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShadowPuzzleManager
+  placed: {fileID: 0}
+  PedestalOneTransform: {fileID: 0}
+  PedestalTwoTransform: {fileID: 0}
+  PedestalOne: {fileID: 0}
+  PedestalTwo: {fileID: 0}
+  targetPedestalOne: {fileID: 0}
+  targetPedestalTwo: {fileID: 0}
+  pedestalOneObject: {fileID: 0}
+  pedestalTwoObject: {fileID: 0}
+  correct: 0
 --- !u!1 &1272776308
 GameObject:
   m_ObjectHideFlags: 0
@@ -182922,6 +183005,60 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1 &1970314022
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970314024}
+  - component: {fileID: 1970314023}
+  m_Layer: 0
+  m_Name: ShadowManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1970314023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970314022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e52c963f1535042a6fbd4ded7af2d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShadowPuzzleManager
+  placed: {fileID: 0}
+  PedestalOneTransform: {fileID: 433399570}
+  PedestalTwoTransform: {fileID: 206094739}
+  PedestalOne: {fileID: 433399572}
+  PedestalTwo: {fileID: 206094734}
+  targetPedestalOne: {fileID: 433399570}
+  targetPedestalTwo: {fileID: 206094739}
+  pedestalOneObject: {fileID: 1018716394290750463, guid: d048a5cc127ebbd42b85adec45f0c2fb, type: 3}
+  pedestalTwoObject: {fileID: 8321455487549713520, guid: 9b450ec2f3f1a4c4898820df8cadcf16, type: 3}
+  correct: 0
+--- !u!4 &1970314024
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970314022}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1272597883}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1972188078
 GameObject:
   m_ObjectHideFlags: 0
