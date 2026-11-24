@@ -1,13 +1,17 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class WheelObject : MonoBehaviour
+public class WheelObject : PuzzleItem
 {
     public int RelativePosition;
 
     public Vector3 desiredPos;
     public Vector3 centerPos;
     public bool isCenter;
+
+
+    public bool isSolvable;
+    public int solvePos;
 
     public void Update()
     {
@@ -30,6 +34,11 @@ public class WheelObject : MonoBehaviour
         else
         { 
             this.transform.localPosition = desiredPos;
+        }
+
+        if (RelativePosition == solvePos)
+        {
+            Solve();
         }
     }
     public void GoTo(Vector3 newPos)

@@ -13,9 +13,17 @@ public class PuzzleItem : MonoBehaviour
 
     public virtual void Solve()
     {
+        if (!isSolved)
+        {
+            Prize();
+        }
+
         isSolved = true;
-        yippee.Play();
-        Prize();
+
+        if (yippee != null)
+        {
+            yippee.Play();
+        }
     }
 
     public virtual void Prize()
@@ -27,7 +35,10 @@ public class PuzzleItem : MonoBehaviour
 
     public void CheckParticles()
     {
-        yippee = Instantiate(prefab, this.transform);
-        yippee.transform.localPosition = new Vector3(0, 0.5f, -0.5f);
+        if (prefab != null)
+        {
+            yippee = Instantiate(prefab, this.transform);
+            yippee.transform.localPosition = new Vector3(0, 0.5f, -0.5f);
+        }
     }
 }
