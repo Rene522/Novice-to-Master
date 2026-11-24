@@ -12,6 +12,8 @@ public class TestPlace : Interactable
 
     [SerializeField] private Hotbar hotbar;
 
+    [SerializeField] private LanternFlicker lanternFlicker;
+
     [SerializeField] public GameObject placedItem;
 
     public GameObject placedItemPrefab;
@@ -56,6 +58,13 @@ public class TestPlace : Interactable
 
             placedObject.transform.SetParent(transform);
 
+            lanternFlicker = placedObject.GetComponentInChildren<LanternFlicker>();
+
+            if (lanternFlicker != null)
+            {
+                lanternFlicker.FindLanternLight();
+            }
+
             Rigidbody rb = placedObject.GetComponentInChildren<Rigidbody>();
 
             if (rb != null)
@@ -65,21 +74,33 @@ public class TestPlace : Interactable
             }
 
             placedItem = placedObject;
-            Debug.Log(placedObject.name);       
+            Debug.Log(placedObject.name);
 
-            if (shadowPuzzleManager != null && shadowPuzzleManager.correct == true)
+            if (lanternFlicker != null)
             {
-             itemPlaced = true;
-             Debug.Log("YIPPEE");
+                if (shadowPuzzleManager.correct)
+                {
+                    lanternFlicker.CorrectAnswer();
+                    Debug.Log("YARRRR");
+                }
+                else
+                {
+                    lanternFlicker.IncorrectAnswer();
+                    Debug.Log("NAH");
+                }
             }
-             else
-            {
-             Debug.Log("Nah");
-            }           
 
             hotbar.RemoveSelectedItem();
 
-            shadowPuzzleManager.checkIfCorrect();
+            if(shadowPuzzleManager != null)
+            {
+                shadowPuzzleManager.checkIfCorrect();
+            }
+            else
+            {
+                return;
+            }
+            
         }
         else
         {
