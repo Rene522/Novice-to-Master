@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: TestItemData
   m_EditorClassIdentifier: Assembly-CSharp::TESTObjectData
   itemName: TEST
-  placedPrefab: {fileID: 6784523068804661100, guid: b7fb9768ac5a95d4f9287f7dddb3ced3, type: 3}
+  placedPrefab: {fileID: 6271009075892961549, guid: ee28ead773a0fb545ae179b8a5cd2e04, type: 3}

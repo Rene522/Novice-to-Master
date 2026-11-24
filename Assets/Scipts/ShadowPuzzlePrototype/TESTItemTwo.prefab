@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1169972025542576649}
   m_Layer: 0
   m_Name: TESTItemTwo
-  m_TagString: Untagged
+  m_TagString: Interactable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -128,5 +128,5 @@ MonoBehaviour:
   promptText: Press {key} To Interact
   feedbackText: 
   allowNearbyPrompt: 0
-  itemData: {fileID: 6271009075892961549}
+  itemData: {fileID: 11400000, guid: b5ba9da42bd4c2a43a0046296cf454d8, type: 2}
   Light: {fileID: 0}
