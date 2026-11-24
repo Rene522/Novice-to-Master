@@ -85,16 +85,6 @@
                     "interactions": "",
                     "initialStateCheck": false,
                     "priority": 0
-                },
-                {
-                    "name": "Place",
-                    "type": "Button",
-                    "id": "22dadbba-0e63-4464-bf00-0f87dd880cd5",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
                 }
             ],
             "bindings": [
@@ -359,17 +349,6 @@
                     "processors": "",
                     "groups": ";Gamepad",
                     "action": "Crouch",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "c4c58f31-d64a-40a2-b901-1ada39e47f31",
-                    "path": "<Keyboard>/p",
-                    "interactions": "Press",
-                    "processors": "",
-                    "groups": ";KeyboardMouse",
-                    "action": "Place",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
