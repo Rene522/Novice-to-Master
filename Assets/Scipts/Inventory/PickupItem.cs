@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class PickupItem : Interactable
 {
-    [SerializeField] private ItemData item;
+    [SerializeField] public ItemData item;
     
     Hotbar hotbar;
     

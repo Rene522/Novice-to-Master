@@ -3,11 +3,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using StarterAssets;
+using TMPro;
 
 public class Hotbar : MonoBehaviour
 {
     [SerializeField] GameObject[] highlights;
     [SerializeField] Image[] slotIcons;
+    [SerializeField] TMP_Text[] SlotNames;
     [SerializeField] Transform hand;
     [SerializeField] StarterAssetsInputs inputs;
 
@@ -163,7 +165,7 @@ public class Hotbar : MonoBehaviour
         bool hasItem = items[slot];
         slotIcons[slot].enabled = hasItem;
         slotIcons[slot].sprite = hasItem ? items[slot].icon : null;
-        
+
     }
 
     void UpdateHeld()
@@ -173,6 +175,11 @@ public class Hotbar : MonoBehaviour
             Destroy(selectedItem);
         }
 
+        for (int i = 0; i < SlotNames.Length; i++)
+        {
+            SlotNames[i].text = "";
+        }
+        
         if (!isSelected)
         {
             return;
@@ -184,6 +191,7 @@ public class Hotbar : MonoBehaviour
             return;
         }
 
+        SlotNames[selectedSlot].text = items[selectedSlot].name;
         selectedItem = Instantiate(item.held, hand);
         //selectedItem.transform.localPosition = Vector3.zero;
         //selectedItem.transform.localRotation = Quaternion.identity;
