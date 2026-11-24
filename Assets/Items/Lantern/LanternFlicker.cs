@@ -8,43 +8,70 @@ public class LanternFlicker : MonoBehaviour
     private Light lantern;
 
     public float minIntensity = 10f;
-    public float maxIntesity = 25f;
+    public float maxIntensity = 25f;
     public float flickerTimer = .1f;
 
+    public float totalTime = 2f;
+
     private float timer;
+
+    private Coroutine flickerCoroutine;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if (lantern == null)
-        {
-            lantern = GetComponent<Light>();
-        }
-
-        //StartCoroutine(FlickeringLight());
+        FindLanternLight();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void FindLanternLight()
     {
-        timer += Time.deltaTime;
-        if (timer <= flickerTimer) return;
-        lantern.intensity = UnityEngine.Random.Range(minIntensity, maxIntesity);
-        timer = 0;
+        lantern = GetComponentInChildren<Light>(true);
+
     }
 
-    private IEnumerator FlickeringLight(float minIntensity, float maxIntesity)
+    public void CorrectAnswer()
     {
-        if (minIntensity < maxIntesity)
+        if (flickerCoroutine != null)
         {
-            yield return null;
+            StopCoroutine(flickerCoroutine);
+            flickerCoroutine = null;
         }
-        (minIntensity, maxIntesity) = (maxIntesity, minIntensity);
 
-        yield return new WaitForSeconds(2);
+        lantern.enabled = true;
+        lantern.intensity = maxIntensity;
+    }
 
-        minIntensity = 0f;
-        maxIntesity = 0f;
+    public void IncorrectAnswer()
+    {
+        if (flickerCoroutine != null)
+            StopCoroutine(flickerCoroutine);
+
+        flickerCoroutine = StartCoroutine(FlickeringLight(minIntensity, maxIntensity));
+    }
+
+    public IEnumerator FlickeringLight(float minIntensity, float maxIntensity)
+    {
+
+        lantern.enabled = true;
+
+        float elapsedTime = 0f;
+
+        while (elapsedTime < totalTime)
+        {
+            float randomIntensity = UnityEngine.Random.Range(minIntensity, maxIntensity);
+
+            lantern.intensity = randomIntensity;
+
+            Debug.Log("Intensity: " + randomIntensity);
+
+            yield return new WaitForSeconds(flickerTimer);
+
+            elapsedTime += flickerTimer;
+        }
+
+        lantern.enabled = false;
+
+        flickerCoroutine = null;
 
     }
 

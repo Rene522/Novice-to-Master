@@ -1955,9 +1955,10 @@ MonoBehaviour:
   feedbackText: 
   allowNearbyPrompt: 0
   placementPoint: {fileID: 843863437}
-  Light: {fileID: 0}
+  Light: {fileID: 1626973313}
   shadowPuzzleManager: {fileID: 1981177460}
   hotbar: {fileID: 1001094011}
+  lanternFlicker: {fileID: 961281675}
   placedItem: {fileID: 0}
   placedItemPrefab: {fileID: 0}
   rb: {fileID: 0}
@@ -18078,6 +18079,7 @@ MonoBehaviour:
   Light: {fileID: 0}
   shadowPuzzleManager: {fileID: 0}
   hotbar: {fileID: 1001094011}
+  lanternFlicker: {fileID: 0}
   placedItem: {fileID: 0}
   placedItemPrefab: {fileID: 0}
   rb: {fileID: 0}
@@ -97007,6 +97009,17 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &961281675 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -5353431796713474441, guid: 5da03c2ad707d6748b0360a56fdd17e5, type: 3}
+  m_PrefabInstance: {fileID: 4426612524728428016}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3378f0b0aff3ed841aa3b087648f72b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LanternFlicker
 --- !u!1 &971079659
 GameObject:
   m_ObjectHideFlags: 0
@@ -151458,9 +151471,10 @@ MonoBehaviour:
   feedbackText: 
   allowNearbyPrompt: 0
   placementPoint: {fileID: 1374439036}
-  Light: {fileID: 0}
+  Light: {fileID: 1626973313}
   shadowPuzzleManager: {fileID: 1981177460}
   hotbar: {fileID: 1001094011}
+  lanternFlicker: {fileID: 961281675}
   placedItem: {fileID: 0}
   placedItemPrefab: {fileID: 0}
   rb: {fileID: 0}
@@ -161693,6 +161707,11 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!108 &1626973313 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 2392818162114240906, guid: 5da03c2ad707d6748b0360a56fdd17e5, type: 3}
+  m_PrefabInstance: {fileID: 4426612524728428016}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &1628946909
 Mesh:
   m_ObjectHideFlags: 0
@@ -165277,9 +165296,10 @@ MonoBehaviour:
   feedbackText: 
   allowNearbyPrompt: 0
   placementPoint: {fileID: 656772132}
-  Light: {fileID: 0}
+  Light: {fileID: 1626973313}
   shadowPuzzleManager: {fileID: 1981177460}
   hotbar: {fileID: 1001094011}
+  lanternFlicker: {fileID: 961281675}
   placedItem: {fileID: 0}
   placedItemPrefab: {fileID: 0}
   rb: {fileID: 0}
@@ -173463,7 +173483,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -87.1}
+  m_AnchoredPosition: {x: 0, y: -152.9}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771519752

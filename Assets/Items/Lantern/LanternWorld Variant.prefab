@@ -200,6 +200,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2159947703175521287, guid: e5da0f64643db934184eb9257a737a14, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7980618306048447380}
+    - targetCorrespondingSourceObject: {fileID: 2159947703175521287, guid: e5da0f64643db934184eb9257a737a14, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -5353431796713474441}
   m_SourcePrefab: {fileID: 100100000, guid: e5da0f64643db934184eb9257a737a14, type: 3}
 --- !u!1 &1355708077446195636 stripped
 GameObject:
@@ -270,6 +273,21 @@ MonoBehaviour:
   feedbackText: 
   allowNearbyPrompt: 0
   item: {fileID: 11400000, guid: c4e9428e67d4cb844896f7e34e233908, type: 2}
+--- !u!114 &-5353431796713474441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355708077446195636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3378f0b0aff3ed841aa3b087648f72b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LanternFlicker
+  minIntensity: 10
+  maxIntesity: 25
+  flickerTimer: 0.1
 --- !u!4 &2211096087537812246 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1262900707205238437, guid: e5da0f64643db934184eb9257a737a14, type: 3}

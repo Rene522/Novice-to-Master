@@ -35,7 +35,7 @@ public class ShadowPuzzleManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("NAH");
+            Debug.Log("NO");
         }
     }
 }
