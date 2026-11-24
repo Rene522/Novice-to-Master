@@ -10,6 +10,7 @@ public class RingsController : MonoBehaviour
     [SerializeField] private bool lockWhenSolved = true;
     [SerializeField] private UnityEvent onPuzzleSolved;
 
+    public GameObject wall;
     public bool IsSolved { get; private set; }
     public Ring InnerRing => innerRing;
     public Ring MiddleRing => middleRing;
@@ -82,6 +83,8 @@ public class RingsController : MonoBehaviour
             IsSolved = true;
 
             Debug.Log("Puzzle solved!", this);
+
+            Destroy(wall);
 
             onPuzzleSolved?.Invoke();
         }
