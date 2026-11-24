@@ -75,11 +75,11 @@ public class TestPlace : Interactable
              else
             {
              Debug.Log("Nah");
-            }
-
-            shadowPuzzleManager.checkIfCorrect();
+            }           
 
             hotbar.RemoveSelectedItem();
+
+            shadowPuzzleManager.checkIfCorrect();
         }
         else
         {
