@@ -94098,6 +94098,7 @@ MonoBehaviour:
   onPuzzleSolved:
     m_PersistentCalls:
       m_Calls: []
+  wall: {fileID: 0}
 --- !u!1 &946885291
 GameObject:
   m_ObjectHideFlags: 0
@@ -97162,6 +97163,124 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3378f0b0aff3ed841aa3b087648f72b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LanternFlicker
+--- !u!1 &968238371
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 968238372}
+  - component: {fileID: 968238374}
+  - component: {fileID: 968238373}
+  m_Layer: 6
+  m_Name: Pencil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &968238372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968238371}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8.55, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1543017733}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &968238373
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968238371}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 21300000, guid: 3c130d2fb7aac2d49877dabe0a6f0d42, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 7, y: 9}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!114 &968238374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968238371}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39560da5859eeb640b5718753b0140ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SillyPencilScript
+  drawSprites:
+  - {fileID: 21300000, guid: 3c130d2fb7aac2d49877dabe0a6f0d42, type: 3}
+  - {fileID: 21300000, guid: fc5d157997e19d241ab2a0b0c7b6c5e6, type: 3}
+  - {fileID: 21300000, guid: 78e3bf732c4055c41a2c69d2174d659f, type: 3}
+  eraseSprites:
+  - {fileID: 21300000, guid: e639f453ab3b8034d9ea29f3020de3ab, type: 3}
+  - {fileID: 21300000, guid: fd66da3b2708abc42a03aaeee89d38ff, type: 3}
+  - {fileID: 21300000, guid: 6f7622aa379c2a04babe19c360fa753b, type: 3}
+  sr: {fileID: 968238373}
+  MidAnim: 0
+  Animating: 0
+  isDraw: 0
+  timer: 0
+  reset: 0.2
 --- !u!1 &971079659
 GameObject:
   m_ObjectHideFlags: 0
@@ -155439,6 +155558,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1459004190}
+  - {fileID: 968238372}
   - {fileID: 1400852053}
   - {fileID: 2756022561125398043}
   - {fileID: 3938709895963924273}
@@ -209832,7 +209952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0890b2061159540bd1b06e8af3da87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Page
-  inputs: {fileID: 0}
+  inputs: {fileID: 1531794086}
   sr: {fileID: 0}
   maxSize: 0700000009000000
   pageSprite:
@@ -209841,7 +209961,7 @@ MonoBehaviour:
   isTurning: 0
   isBehind: 0
   targetPosition: {x: 0, y: 0}
-  journalCam: {fileID: 0}
+  journalCam: {fileID: 1459004194}
 --- !u!114 &1471645971718354253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212744,7 +212864,7 @@ Transform:
   m_GameObject: {fileID: 3640889546498997717}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.10743, y: 0.63611984, z: 14.77597}
+  m_LocalPosition: {x: 0, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -214870,7 +214990,7 @@ Transform:
   m_GameObject: {fileID: 4281550227426803541}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.10743, y: 0.63611984, z: 14.77597}
+  m_LocalPosition: {x: 0, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -215508,7 +215628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e04762e2becac478640d38c4db61af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EdittablePage
-  inputs: {fileID: 0}
+  inputs: {fileID: 1531794086}
   sr: {fileID: 6714466058409129549}
   maxSize: 0700000009000000
   pageSprite:
@@ -215517,12 +215637,12 @@ MonoBehaviour:
   isTurning: 0
   isBehind: 0
   targetPosition: {x: 0, y: 0}
-  journalCam: {fileID: 0}
+  journalCam: {fileID: 1459004194}
   parent: {fileID: 1464926798958410793}
   isLeft: 0
   AltSprite: {fileID: 21300000, guid: 7267b5f9a641b52448a5ae72c4d55ee7, type: 3}
   OriginalAlt: {fileID: 21300000, guid: 7267b5f9a641b52448a5ae72c4d55ee7, type: 3}
-  sillyAnim: {fileID: 0}
+  sillyAnim: {fileID: 968238374}
   timer: 1
 --- !u!1 &4412886723651882370
 GameObject:
@@ -218110,7 +218230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ef0890b2061159540bd1b06e8af3da87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Page
-  inputs: {fileID: 0}
+  inputs: {fileID: 1531794086}
   sr: {fileID: 0}
   maxSize: 0700000009000000
   pageSprite:
@@ -218119,7 +218239,7 @@ MonoBehaviour:
   isTurning: 0
   isBehind: 0
   targetPosition: {x: 0, y: 0}
-  journalCam: {fileID: 0}
+  journalCam: {fileID: 1459004194}
 --- !u!114 &5566549671662554139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -221062,7 +221182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e8e04762e2becac478640d38c4db61af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EdittablePage
-  inputs: {fileID: 0}
+  inputs: {fileID: 1531794086}
   sr: {fileID: 7129437050016885323}
   maxSize: 0700000009000000
   pageSprite:
@@ -221071,12 +221191,12 @@ MonoBehaviour:
   isTurning: 0
   isBehind: 0
   targetPosition: {x: 0, y: 0}
-  journalCam: {fileID: 0}
+  journalCam: {fileID: 1459004194}
   parent: {fileID: 5549029080429569097}
   isLeft: 1
   AltSprite: {fileID: 21300000, guid: 7a4ab4cebb6db6840879e28df470cf0a, type: 3}
   OriginalAlt: {fileID: 21300000, guid: 7a4ab4cebb6db6840879e28df470cf0a, type: 3}
-  sillyAnim: {fileID: 0}
+  sillyAnim: {fileID: 968238374}
   timer: 1
 --- !u!114 &7202379412973388061
 MonoBehaviour:
