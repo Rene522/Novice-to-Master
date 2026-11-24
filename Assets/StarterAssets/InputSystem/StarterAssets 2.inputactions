@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "StarterAssets",
+    "name": "StarterAssets 2",
     "maps": [
         {
             "name": "Player",
@@ -70,16 +70,6 @@
                     "name": "Crouch",
                     "type": "Button",
                     "id": "5fefd149-00b5-4a04-818f-735136c1021b",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false,
-                    "priority": 0
-                },
-                {
-                    "name": "Place",
-                    "type": "Button",
-                    "id": "aebc862e-306b-40bf-962c-c99168931e5c",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -327,15 +317,6 @@
                     "processors": "",
                     "groups": ";Gamepad",
                     "action": "Crouch",
-                },
-                {
-                    "name": "",
-                    "id": "79cda73a-c72e-4c6f-9b21-0787b8b3c526",
-                    "path": "<Keyboard>/p",
-                    "interactions": "Press",
-                    "processors": "",
-                    "groups": ";KeyboardMouse",
-                    "action": "Place",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
