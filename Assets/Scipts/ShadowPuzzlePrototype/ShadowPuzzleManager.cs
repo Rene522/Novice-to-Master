@@ -27,6 +27,10 @@ public class ShadowPuzzleManager : MonoBehaviour
 
         bool correctPositions = PedestalOneTransform.position == targetPedestalOne.position && PedestalTwoTransform.position == targetPedestalTwo.position;
 
+        Debug.Log(correctItems);
+        Debug.Log(correctRotations);
+        Debug.Log(correctPositions);
+
         correct = correctItems && correctRotations && correctPositions;
 
         if (correct)

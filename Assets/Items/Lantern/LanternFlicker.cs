@@ -62,8 +62,6 @@ public class LanternFlicker : MonoBehaviour
 
             lantern.intensity = randomIntensity;
 
-            Debug.Log("Intensity: " + randomIntensity);
-
             yield return new WaitForSeconds(flickerTimer);
 
             elapsedTime += flickerTimer;
