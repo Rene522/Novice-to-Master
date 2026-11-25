@@ -14,24 +14,24 @@ public class WheelSpin : MonoBehaviour
     public WheelManager manager;
 
     public bool DebugTestMode;
-    public GameObject playerdebug;
+    public GameObject playerDebug;
 
     private void Start()
     {
-        if (playerdebug == null)
+        if (playerDebug == null)
         {
             CharacterController temp = FindFirstObjectByType<CharacterController>();
 
             if (temp != null)
             {
-                playerdebug = temp.gameObject;
+                playerDebug = temp.gameObject;
             }
         }
     }
 
     private void Update()
     {
-        if (DebugTestMode)
+        if (DebugTestMode && (this.transform.position - playerDebug.transform.position).magnitude < 10)
         {
             CheckKeys();
         }

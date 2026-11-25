@@ -16,14 +16,14 @@ public class PuzzleItem : MonoBehaviour
         if (!isSolved)
         {
             Prize();
+
+            if (yippee != null)
+            {
+                yippee.Play();
+            }
         }
 
         isSolved = true;
-
-        if (yippee != null)
-        {
-            yippee.Play();
-        }
     }
 
     public virtual void Prize()

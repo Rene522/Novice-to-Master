@@ -18,10 +18,18 @@ public class Shield : MonoBehaviour
 
     public WheelManager manager;
     public bool DebugMode;
+    public CharacterController playerDebug;
+
+
+    private void Start()
+    {
+        playerDebug = FindFirstObjectByType<CharacterController>();    
+    }
+
 
     private void Update()
     {
-        if (DebugMode)
+        if (DebugMode && (this.transform.position - playerDebug.transform.position).magnitude < 10)
         {
             CheckKeys();
         }
